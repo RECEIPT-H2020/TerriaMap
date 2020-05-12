@@ -3,7 +3,7 @@
 
 ## Set up
 Requirements:
-Yarn and Node v10. (V10 its important, otherwise gulp may fail).
+Yarn and Node v10. (V10 its important).
 
 ### Notes
 - **Note 1**: Master Banches for out forks are named 'receipt'.
