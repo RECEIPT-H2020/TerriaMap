@@ -7,12 +7,12 @@ Requirements:
 Yarn and Node v10. (V10 its important, otherwise gulp may fail).
 
 ## Notes
-**Note 1**: Master Banches for out forks are named 'receipt'.
-**Note 2**, you may need to run gulp sync-terriajs-dependencies and then yarn install and npx gulp again.
-**Note 3**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
-**Note 4**, when changing branches: If you encouter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
-**Note 5**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
-**Note 6**, use prettier while formatting your code and set it up to prettify on 'file save'
+- **Note 1**: Master Banches for out forks are named 'receipt'.
+- **Note 2**, you may need to run gulp sync-terriajs-dependencies and then yarn install and npx gulp again.
+- **Note 3**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
+- **Note 4**, when changing branches: If you encouter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
+- **Note 5**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
+- **Note 6**, use prettier while formatting your code and set it up to prettify on 'file save'
  
 ### Steps: 
 ```
