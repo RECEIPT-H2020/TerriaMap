@@ -5,8 +5,17 @@ Last edited: 4/28
 ## Set up
 Requirements:
 Yarn and Node v10. (V10 its important, otherwise gulp may fail).
+
+## Notes
+**Note 1**: Master Banches for out forks are named 'receipt'.
+**Note 2**, you may need to run gulp sync-terriajs-dependencies and then yarn install and npx gulp again.
+**Note 3**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
+**Note 4**, when changing branches: If you encouter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
+**Note 5**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
+**Note 6**, use prettier while formatting your code and set it up to prettify on 'file save'
+Cesium Access token
  
-Steps: 
+### Steps: 
 ```
 git clone https://github.com/RECEIPT-H2020/TerriaMap.git
 cd TerriaMap
@@ -18,10 +27,6 @@ yarn install
 npx gulp
 ```
 
-Note: you may need to run gulp sync-terriajs-dependencies and then yarn install and npx gulp again
-Note 2: PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`
- 
- 
  ## Run locally
 from TerriaMaps folder:
 ```
@@ -45,15 +50,8 @@ firebase login:ci ##returns a token to be used in a CI server
 ```
 Add the token into Github project -> settings -> secrets: FIREBASE_TOKEN:<your token> 
 
-### Please note:
-- If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
 
-- Master Banches for out forks are named 'receipt'
-If you create a feature branch, try to change one branch at the time, and make sure that everything runs properly with the master branches of the rest of the repositories before pushing.
-- Use prettier while formatting your code and set it up to prettify on 'file save'
-Cesium Access token
-
-  
+## Cesium access token  
 You can create a new token at https://cesium.com/ion or use the temporary token:
  
 ```TerriaMap > wwwroot > config.json ```
