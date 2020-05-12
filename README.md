@@ -1,6 +1,5 @@
 
 # Receipt Project
-Last edited: 4/28
 
 ## Set up
 Requirements:
