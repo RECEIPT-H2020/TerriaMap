@@ -6,7 +6,7 @@ Last edited: 4/28
 Requirements:
 Yarn and Node v10. (V10 its important, otherwise gulp may fail).
 
-## Notes
+### Notes
 - **Note 1**: Master Banches for out forks are named 'receipt'.
 - **Note 2**, you may need to run gulp sync-terriajs-dependencies and then yarn install and npx gulp again.
 - **Note 3**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
