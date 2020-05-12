@@ -16,8 +16,7 @@ Yarn and Node v10. (V10 its important, otherwise gulp may fail).
 ### Steps: 
 ```
 git clone https://github.com/RECEIPT-H2020/TerriaMap.git
-cd TerriaMap
-mkdir packages && cd packages
+cd TerriaMap/packages
 git clone https://github.com/RECEIPT-H2020/terriajs.git
 cd ..
 nvm use 10 <- it is necessary to run gulp on node version 10
