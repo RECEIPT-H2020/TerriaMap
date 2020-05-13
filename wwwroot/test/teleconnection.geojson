@@ -42,7 +42,8 @@
       "properties": {
         "marker-color": "#4f8f00",
         "marker-size": "large",
-        "marker-symbol": "farm"
+        "marker-symbol": "farm",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
         "type": "Point",
