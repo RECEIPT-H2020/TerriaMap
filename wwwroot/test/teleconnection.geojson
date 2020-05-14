@@ -6,7 +6,9 @@
       "properties": {
         "stroke": "#d80002",
         "stroke-width": 6,
-        "stroke-opacity": 0.8
+        "stroke-opacity": 0.8,
+        "rc-type": "teleconnection",
+        "rc-sector": "agriculture"
       },
       "geometry": {
         "type": "LineString",
@@ -27,7 +29,9 @@
       "properties": {
         "marker-color": "#ff9300",
         "marker-size": "large",
-        "marker-symbol": "industrial"
+        "marker-symbol": "industrial",
+        "rc-type": "sector",
+        "rc-sector": "agriculture"
       },
       "geometry": {
         "type": "Point",
@@ -43,13 +47,137 @@
         "marker-color": "#4f8f00",
         "marker-size": "large",
         "marker-symbol": "farm",
+        "rc-type": "hotspot",
+        "rc-sector": "agriculture",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.3515625,
-          7.18810087117902
+          0.52734375,
+          6.489983332670651
+        ]
+      }
+    },
+
+
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#d80002",
+        "stroke-width": 6,
+        "stroke-opacity": 0.8,
+        "rc-type": "teleconnection",
+        "rc-sector": "coastal-infrastructure"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            30.937499999999996,
+            10.31491928581316
+          ],
+          [
+            19.86328125,
+            44.33956524809713
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff9300",
+        "marker-size": "large",
+        "marker-symbol": "harbor",
+        "rc-type": "sector",
+        "rc-sector": "coastal-infrastructure"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.86328125,
+          44.33956524809713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#4f8f00",
+        "marker-size": "large",
+        "marker-symbol": "farm",
+        "rc-type": "hotspot",
+        "rc-sector": "coastal-infrastructure",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.937499999999996,
+          10.31491928581316
+        ]
+      }
+    },
+
+
+
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#d80002",
+        "stroke-width": 6,
+        "stroke-opacity": 0.8,
+        "rc-type": "teleconnection",
+        "rc-sector": "finance"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            55.01953125,
+            27.527758206861886
+            ],
+          [
+            31.9921875,
+            51.28940590271679
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#ff9300",
+        "marker-size": "large",
+        "marker-symbol": "bank",
+        "rc-type": "sector",
+        "rc-sector": "finance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.9921875,
+          51.28940590271679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#4f8f00",
+        "marker-size": "large",
+        "marker-symbol": "farm",
+        "rc-type": "hotspot",
+        "rc-sector": "finance",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.01953125,
+          27.527758206861886
         ]
       }
     }
