@@ -1,18 +1,19 @@
 {
   "homeCamera": {
-    "north": -8,
-    "east": 158,
-    "south": -45,
-    "west": 109
+    "north": 66,
+    "east": 36,
+    "south": 9,
+    "west": 27
   },
   "catalog": [
     {
       "type": "geojson",
-      "name": "GeoJSON Test",
+      "name": "Receipt Stories",
+      "featureInfoTemplate" : "Hotpots stories and connections.",
       "url": "test/teleconnection.geojson",
       "isShown": true,
       "isEnabled": true,
-      "zoomOnEnable": true
+      "zoomOnEnable": false
     }
   ]
 }

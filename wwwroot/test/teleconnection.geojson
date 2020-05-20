@@ -8,7 +8,9 @@
         "stroke-width": 6,
         "stroke-opacity": 0.8,
         "rc-type": "teleconnection",
-        "rc-sector": "agriculture"
+        "rc-sector": "agriculture",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip"
       },
       "geometry": {
         "type": "LineString",
@@ -31,7 +33,9 @@
         "marker-size": "large",
         "marker-symbol": "industrial",
         "rc-type": "sector",
-        "rc-sector": "agriculture"
+        "rc-sector": "agriculture",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip"
       },
       "geometry": {
         "type": "Point",
@@ -49,6 +53,8 @@
         "marker-symbol": "farm",
         "rc-type": "hotspot",
         "rc-sector": "agriculture",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
@@ -69,7 +75,9 @@
         "stroke-width": 6,
         "stroke-opacity": 0.8,
         "rc-type": "teleconnection",
-        "rc-sector": "coastal-infrastructure"
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip"
       },
       "geometry": {
         "type": "LineString",
@@ -92,7 +100,9 @@
         "marker-size": "large",
         "marker-symbol": "harbor",
         "rc-type": "sector",
-        "rc-sector": "coastal-infrastructure"
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip"
       },
       "geometry": {
         "type": "Point",
@@ -109,7 +119,9 @@
         "marker-size": "large",
         "marker-symbol": "farm",
         "rc-type": "hotspot",
-        "rc-sector": "coastal-infrastructure",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
@@ -130,7 +142,9 @@
         "stroke-width": 6,
         "stroke-opacity": 0.8,
         "rc-type": "teleconnection",
-        "rc-sector": "finance"
+        "rc-sector": "finance",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip"
       },
       "geometry": {
         "type": "LineString",
@@ -153,7 +167,9 @@
         "marker-size": "large",
         "marker-symbol": "bank",
         "rc-type": "sector",
-        "rc-sector": "finance"
+        "rc-sector": "finance",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip"
       },
       "geometry": {
         "type": "Point",
@@ -171,6 +187,8 @@
         "marker-symbol": "farm",
         "rc-type": "hotspot",
         "rc-sector": "finance",
+        "rc-title": "The title of the tooltip",
+        "rc-description": "The description of the tooltip",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
