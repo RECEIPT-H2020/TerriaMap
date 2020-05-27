@@ -1,0 +1,90 @@
+{
+  "homeCamera": {
+    "west": 4,
+    "south": 90,
+    "east": 20,
+    "north": 0,
+  },
+//      "url":"mapbox://styles/ctwhome/ck8o3lv2037ha1inxqnzzb15s?access_token=pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
+//      "url":"mapbox://styles/maartenvm/ck7364xo31zm31iqweylmgh0q&access_token=pk.eyJ1IjoibWFhcnRlbnZtIiwiYSI6ImNrMnl1NTJyMTAyNHozaGp3Yndhd2JibTIifQ.-23EtnnBkqN_BpXq2QWlqA",
+//    https://api.mapbox.com/v4/mapbox.satellite/1/0/0@2x.jpg90?access_token=pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg
+  "catalog": [
+    {
+      "type": "geojson",
+      "name": "GeoJSON Test",
+      "url": "test/teleconnection.geojson",
+      "isShown": true,
+      "isEnabled": true,
+      "zoomOnEnable": false
+    },
+
+    {
+      "type": "mapbox-style",
+      "name": "Mapbox Style",
+      "styleId": "ck9b6yhm00cgm1iqsmunkcxi4",
+      "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
+//      "url": "test/green-dark-style.json",
+//      "tilesize": this.tilesize,
+//      "scaleFactor": this.scaleFactor,
+//      "ellipsoid": this.ellipsoid,
+//      "minimumLevel": this.minimumLevel,
+//      "maximumLevel": this.maximumLevel,
+//      "rectangle": this.rectangle,
+//      "credit": this.credit
+    },
+
+
+
+//
+//    {
+//////      credit: this.attribution,
+//////      url: cleanAndProxyUrl(this, this.url),
+//////      mapId: this.mapId,
+//////      accessToken: this.accessToken,
+//////      format: this.fileExtension,
+//////      maximumLevel: this.maximumLevel,
+////
+//      "type": "mapbox-map",
+////      "url": "https://api.mapbox.com/v4/",
+//      "mapId": "mapbox.satellite",
+//      "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg"
+//    },
+//    mapbox://styles/ctwhome/ck8o3lv2037ha1inxqnzzb15s
+//    {
+//      "name":"Mapbox Style",
+//      "type":"mapbox-map",
+//      "url": "https://api.mapbox.com/v4/",
+//      "isEnabled": true,
+//      "isShown": false,
+//      "opacity":1
+//    },
+
+
+//    {
+//      "type": "json",
+//      "name": "Style",
+//      "url": "test/green-dark-style.json",
+//      "isShown": true,
+//      "isEnabled": true,
+//      "zoomOnEnable": true
+//    },
+
+//    {
+//      "type": "geojson",
+//      "name": "geojson.io",
+//      "url": "https://gist.githubusercontent.com/ctwhome/1627af4066b19f9968135b7d76688dce/raw/5da0c0c1e25cfab2717fb78f96931864e8b4c66e/map.geojson",
+//      "isShown": true,
+//      "isEnabled": true,
+//      "zoomOnEnable": true
+//    },
+
+//    {
+//      "type": "mapbox-map",
+//      "name": "mapbox-map",
+//      "url": "https://api.mapbox.com/styles/v1/ctwhome/ck9b6yhm00cgm1iqsmunkcxi4/wmts?access_token=pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
+//      "isShown": true,
+//      "isEnabled": true,
+//      "zoomOnEnable": true
+//    }
+  ]
+}
