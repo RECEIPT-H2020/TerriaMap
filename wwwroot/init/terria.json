@@ -13,6 +13,14 @@
       "isShown": true,
       "isEnabled": true,
       "zoomOnEnable": true
+    },
+    {
+    "type": "geojson",
+    "name": "Europe Lines",
+    "url": "test/europe-lines.geojson",
+    "isShown": true,
+    "isEnabled": true,
+    "zoomOnEnable": true
     }
   ]
 }
