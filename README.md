@@ -27,18 +27,12 @@ npx gulp
 from TerriaMaps folder:
 ```
 nvm use 10 ## if using nvm locally to ensure you are on nodejs version 10
-npm start
-npx gulp watch
+yarn serve
 ```
-
-### Set up deploy
-on Firebase hosting is needed to get a auth_token:
-Github requires a FIREBASE_TOKEN to be able to deploy your Angular app to Firebase. Generate a token for firebase ci:
+## Stop PM2 instances runningn locally
 ```
-install npm i -g firebase-tools
-firebase login:ci ##returns a token to be used in a CI server
+yarn stop
 ```
-Add the token into Github project -> settings -> secrets: FIREBASE_TOKEN:<your token> 
 
 #### Manual deploy
 The deploy pipeline runs when pushing to release branch (master on 'receipt').
