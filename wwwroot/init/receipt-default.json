@@ -23,7 +23,7 @@
       "name": "Mapbox Style",
       "styleId": "ck9b6yhm00cgm1iqsmunkcxi4",
       "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
-//      "url": "test/green p-dark-style.json",
+//      "url": "test/green-dark-style.json",
 //      "tilesize": this.tilesize,
 //      "scaleFactor": this.scaleFactor,
 //      "ellipsoid": this.ellipsoid,
