@@ -6,6 +6,23 @@
     "north": 0
   },
   "catalog": [
+    
+    {
+      "type": "mapbox-style",
+      "name": "Pirate - Mapbox Style",
+      "username": "tempgeocent",
+      "styleId": "cj2qe6qid003a2rmrquvqgbcx",
+      "accessToken": "pk.eyJ1IjoidGVtcGdlb2NlbnQiLCJhIjoiY2l1YTNmenEyMDAwdDJ6cWZxbG55Yjg4OSJ9.QRTz4Pi3096MtXKc_QgpWQ"
+    },
+
+    {
+      "type": "mapbox-style",
+      "name": "Drak Green - Mapbox Style",
+      "username": "ctwhome",
+      "styleId": "ckaxxuoto12kn1invcyk06nhk",
+      "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg"
+    },    
+
     {
       "type": "geojson",
       "name": "GeoJSON Test",
