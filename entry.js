@@ -1,4 +1,4 @@
-const globeGif = require('./lib/Styles/globe.gif');
+const globeGif = require('./lib/Styles/loader.gif');
 require('./lib/Styles/loader.css');
 
 function loadMainScript() {
@@ -8,7 +8,7 @@ function loadMainScript() {
             resolve(require('./index'));
         }, function(error) {
             reject(error);
-        }, 'index'); 
+        }, 'index');
     });
 }
 
@@ -17,6 +17,7 @@ function createLoader() {
     loaderDiv.classList.add("loader-ui");
     const loaderGif = document.createElement('img');
     loaderGif.src = globeGif;
+    loaderGif.classList.add('loader-gif');
     const loaderLeft = document.createElement('div');
     loaderLeft.classList.add("loader-ui-left");
     const loaderGrabber = document.createElement('div');
@@ -28,7 +29,7 @@ function createLoader() {
     loaderDiv.append(loaderLeft);
     loaderDiv.append(loaderRight);
     loaderDiv.append(loaderGrabber);
-    loaderDiv.style.backgroundColor ='#383F4D';
+    loaderDiv.style.backgroundColor ='#DEDEDF';
     document.body.appendChild(loaderDiv);
 
     loadMainScript().catch(() => {
@@ -37,7 +38,7 @@ function createLoader() {
         loaderDiv.classList.add('loader-ui-hide');
         setTimeout(()=> {
             document.body.removeChild(loaderDiv);
-        }, 2000);
+        }, 0);
     });
 }
 
