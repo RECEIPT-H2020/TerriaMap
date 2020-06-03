@@ -8,10 +8,10 @@
         googleAnalyticsKey: null,
         googleAnalyticsOptions: null,
         /* Text that appears at the bottom of the map */
-        disclaimer: {
-            text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
-            url: ""
-        },
+        // disclaimer: {
+        //     text: "Disclaimer: This map must not be used for navigation or precise spatial analysis",
+        //     url: ""
+        // },
         /*
         // Text that will be added to any pages printed from your site.
         printDisclaimer:{
