@@ -29,7 +29,7 @@
       "url": "test/teleconnection.geojson",
       "isShown": true,
       "isEnabled": true,
-      "zoomOnEnable": true
+      "zoomOnEnable": false
     },
     {
     "type": "geojson",
@@ -37,7 +37,7 @@
     "url": "test/europe-lines.geojson",
     "isShown": true,
     "isEnabled": true,
-    "zoomOnEnable": true
+    "zoomOnEnable": false
     }
   ]
 }
