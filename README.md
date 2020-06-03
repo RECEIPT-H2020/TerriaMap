@@ -6,12 +6,11 @@ Requirements:
 Yarn and Node v10. (V10 its important).
 
 ### Notes
-- **Note 1**: Master Banches for out forks are named 'receipt'.
-- **Note 2**, you may need to run gulp sync-terriajs-dependencies and then yarn install and npx gulp again.
-- **Note 3**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
-- **Note 4**, when changing branches: If you encouter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
-- **Note 5**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
-- **Note 6**, use prettier while formatting your code and set it up to prettify on 'file save'
+- **Note 1**: Master Banches for our forks are named 'receipt'.
+- **Note 2**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
+- **Note 3**, when changing branches: If you encouter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
+- **Note 4**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
+- **Note 5**, use prettier while formatting your code and set it up to prettify on 'file save'
  
 ### Steps: 
 ```
@@ -28,18 +27,12 @@ npx gulp
 from TerriaMaps folder:
 ```
 nvm use 10 ## if using nvm locally to ensure you are on nodejs version 10
-npm start
-npx gulp watch
+yarn serve
 ```
-
-### Set up deploy
-on Firebase hosting is needed to get a auth_token:
-Github requires a FIREBASE_TOKEN to be able to deploy your Angular app to Firebase. Generate a token for firebase ci:
+## Stop PM2 instances runningn locally
 ```
-install npm i -g firebase-tools
-firebase login:ci ##returns a token to be used in a CI server
+yarn stop
 ```
-Add the token into Github project -> settings -> secrets: FIREBASE_TOKEN:<your token> 
 
 #### Manual deploy
 The deploy pipeline runs when pushing to release branch (master on 'receipt').

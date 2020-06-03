@@ -1,19 +1,77 @@
 {
   "baseMapName": "Positron (Light)",
   "homeCamera": {
-    "north": -8,
-    "east": 158,
-    "south": -45,
-    "west": 109
+    "west": 4,
+    "south": 90,
+    "east": 20,
+    "north": 0
   },
   "catalog": [
+    {
+      "type": "mapbox-style",
+      "name": "EU Lines!- Mapbox Style",
+      "username": "maartenvm",
+      "styleId": "ck7364xo31zm31iqweylmgh0q",
+      "accessToken": "pk.eyJ1IjoibWFhcnRlbnZtIiwiYSI6ImNrMnl1NTJyMTAyNHozaGp3Yndhd2JibTIifQ.-23EtnnBkqN_BpXq2QWlqA",
+      "isShown": true,
+      "isEnabled": true,
+      "opacity": 1
+    },
     {
       "type": "geojson",
       "name": "GeoJSON Test",
       "url": "test/teleconnection.geojson",
       "isShown": true,
       "isEnabled": true,
-      "zoomOnEnable": true
+      "zoomOnEnable": false
+    },
+    {
+      "type": "mapbox-style",
+      "name": "Blueprint - Mapbox Style",
+      "username": "ctwhome",
+      "styleId": "ckaz6z6r71bd01in6lzgonl8r",
+      "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
+      "isShown": false,
+      "isEnabled": true,
+      "opacity": 1
+    },
+    {
+      "type": "mapbox-style",
+      "name": "Amazing Spiderman - Mapbox Style",
+      "username": "ctwhome",
+      "styleId": "ckazbdbn80n1o1imygmda2cfv",
+      "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
+      "isShown": false,
+      "isEnabled": true,
+      "opacity": 1
+    },
+    {
+      "type": "mapbox-style",
+      "name": "Pirate - Mapbox Style",
+      "username": "tempgeocent",
+      "styleId": "cj2qe6qid003a2rmrquvqgbcx",
+      "accessToken": "pk.eyJ1IjoidGVtcGdlb2NlbnQiLCJhIjoiY2l1YTNmenEyMDAwdDJ6cWZxbG55Yjg4OSJ9.QRTz4Pi3096MtXKc_QgpWQ",
+      "isShown": false,
+      "isEnabled": true,
+      "opacity": 1
+    },
+    {
+      "type": "mapbox-style",
+      "name": "Drak Green - Mapbox Style",
+      "username": "ctwhome",
+      "styleId": "ckaxxuoto12kn1invcyk06nhk",
+      "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
+      "isShown": false,
+      "isEnabled": true,
+      "opacity":1
+    },
+    {
+      "type": "geojson",
+      "name": "Europe Lines",
+      "url": "test/europe-lines.geojson",
+      "isShown": false,
+      "isEnabled": false,
+      "zoomOnEnable": false
     }
   ]
 }

@@ -4,11 +4,13 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#d13026",
-        "marker-size": "medium",
-        "marker-symbol": "farm",
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "agriculture",
+        "rc-title": "Title of the hotspot",
+        "rc-description": "Description of the tooltip",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
@@ -22,11 +24,13 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#d13026",
-        "marker-size": "medium",
-        "marker-symbol": "farm",
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
         "rc-type": "hotspot",
-        "rc-sector": "coastal-infrastructure",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Title of the hotspot",
+        "rc-description": "Description of the tooltip",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {
@@ -41,11 +45,13 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#d13026",
-        "marker-size": "medium",
-        "marker-symbol": "farm",
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "finance",
+        "rc-title": "Title of the hotspot",
+        "rc-description": "Description of the tooltip",
         "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
       },
       "geometry": {

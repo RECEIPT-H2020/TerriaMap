@@ -31,7 +31,7 @@ module.exports = function(devMode, hot) {
                         path.resolve(__dirname, '..', 'index.js'),
                         path.resolve(__dirname, '..', 'entry.js'),
                         path.resolve(__dirname, '..', 'lib')
-                        
+
                     ],
                     loader: 'babel-loader',
                     options: {
@@ -47,17 +47,11 @@ module.exports = function(devMode, hot) {
                     test: /\.(png|jpg|svg|gif)$/,
                     include: path.resolve(__dirname, '..', 'wwwroot', 'images'),
                     loader: 'url-loader',
-                    options: {
-                        limit: 8192
-                    }
                 },
                 {
-                    test: /globe\.gif$/,
+                    test: /loader\.gif$/,
                     include: path.resolve(__dirname, '..', 'lib', 'Styles'),
                     loader: 'url-loader',
-                    options: {
-                        limit: 65536
-                    }
                 },
                 {
                     test: /loader\.css$/,
