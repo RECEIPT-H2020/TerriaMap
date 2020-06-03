@@ -4,8 +4,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#4f8f00",
-        "marker-size": "large",
+        "marker-color": "#d13026",
+        "marker-size": "medium",
         "marker-symbol": "farm",
         "rc-type": "hotspot",
         "rc-sector": "agriculture",
@@ -22,8 +22,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#4f8f00",
-        "marker-size": "large",
+        "marker-color": "#d13026",
+        "marker-size": "medium",
         "marker-symbol": "farm",
         "rc-type": "hotspot",
         "rc-sector": "coastal-infrastructure",
@@ -41,8 +41,8 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#4f8f00",
-        "marker-size": "large",
+        "marker-color": "#d13026",
+        "marker-size": "medium",
         "marker-symbol": "farm",
         "rc-type": "hotspot",
         "rc-sector": "finance",
