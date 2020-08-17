@@ -28,6 +28,7 @@ from TerriaMaps folder:
 ```
 nvm use 10 ## if using nvm locally to ensure you are on nodejs version 10
 yarn serve
+open browser on localhost:3001
 ```
 ## Stop PM2 instances runningn locally
 ```
