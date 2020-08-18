@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#4f8f00",
+        "marker-color": "#999",
         "marker-size": "large",
-        "marker-symbol": "farm",
+        "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "agriculture",
         "story-id": "g-7bc92b7c2b8ce676bfab4d3b1abc5d0e"
@@ -161,6 +161,111 @@
           ]
         ]
       }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Sudan",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.937499999999996,
+          10.31491928581316
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "finance",
+        "rc-title": "Iran",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.01953125,
+          27.527758206861886
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Brazil",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.25390625,
+          -3.337953961416472
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "finance",
+        "rc-title": "US",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.22265625,
+          37.85750715625203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "manufacturing",
+        "rc-title": "India",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.57421875,
+          14.26438308756265
+        ]
+      }
     }
+
   ]
 }
