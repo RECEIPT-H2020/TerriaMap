@@ -1,0 +1,271 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "agriculture",
+        "story-id": "g-7bc92b7c2b8ce676bfab4d3b1abc5d0e"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.52734375,
+          6.489983332670651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#d80002",
+        "stroke-width": 6,
+        "stroke-opacity": 0.8,
+        "rc-type": "teleconnection",
+        "rc-sector": "agriculture"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -0.2197265625,
+            5.572249801113911
+          ],
+          [
+            -0.1318359375,
+            4.674979814820256
+          ],
+          [
+            -0.32958984375,
+            3.7984839750369748
+          ],
+          [
+            -0.8679199218749999,
+            2.7784514150468644
+          ],
+          [
+            -2.28515625,
+            1.7245930431979002
+          ],
+          [
+            -4.658203125,
+            1.2303741774326145
+          ],
+          [
+            -8.701171874999998,
+            1.7575368113083254
+          ],
+          [
+            -13.447265624999998,
+            4.390228926463396
+          ],
+          [
+            -17.314453125,
+            8.059229627200192
+          ],
+          [
+            -19.335937499999996,
+            12.039320557540572
+          ],
+          [
+            -20.478515625,
+            17.811456088564483
+          ],
+          [
+            -20.7421875,
+            24.607069137709683
+          ],
+          [
+            -19.248046875,
+            30.44867367928756
+          ],
+          [
+            -16.259765625,
+            36.59788913307022
+          ],
+          [
+            -13.0078125,
+            41.376808565702355
+          ],
+          [
+            -9.84375,
+            44.96479793033101
+          ],
+          [
+            -6.591796875,
+            47.931066347509784
+          ],
+          [
+            -5.185546875,
+            49.32512199104001
+          ],
+          [
+            -3.251953125,
+            49.95121990866204
+          ],
+          [
+            -0.703125,
+            50.3454604086048
+          ],
+          [
+            1.142578125,
+            50.792047064406866
+          ],
+          [
+            2.373046875,
+            51.508742458803326
+          ],
+          [
+            3.6035156249999996,
+            52.214338608258196
+          ],
+          [
+            3.9440917968749996,
+            52.35547370875268
+          ],
+          [
+            4.17755126953125,
+            52.431734261871235
+          ],
+          [
+            4.357452392578125,
+            52.45600939264076
+          ],
+          [
+            4.54010009765625,
+            52.466050361889515
+          ],
+          [
+            4.643096923828125,
+            52.465213701916504
+          ],
+          [
+            4.68841552734375,
+            52.447640168883865
+          ],
+          [
+            4.720001220703125,
+            52.43340883827937
+          ],
+          [
+            4.783172607421875,
+            52.42587274336118
+          ],
+          [
+            4.8284912109375,
+            52.420010445358606
+          ]
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Sudan",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.937499999999996,
+          10.31491928581316
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "finance",
+        "rc-title": "Iran",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          55.01953125,
+          27.527758206861886
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Brazil",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.25390625,
+          -3.337953961416472
+        ]
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "finance",
+        "rc-title": "US",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.22265625,
+          37.85750715625203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "manufacturing",
+        "rc-title": "India",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.57421875,
+          14.26438308756265
+        ]
+      }
+    }
+
+  ]
+}
