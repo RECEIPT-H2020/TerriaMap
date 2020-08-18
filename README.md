@@ -14,13 +14,10 @@ Yarn and Node v10. (V10 its important).
 - **Note 5**, use prettier while formatting your code and set it up to prettify on 'file save'
 - **Note 6 - Updating terrija**: When updating terriajs you need to `gulp sync-terriajs-dependencies`
 
-### Steps: 
+### Steps:
 ```
-git clone https://github.com/RECEIPT-H2020/TerriaMap.git
-cd TerriaMap/packages
-git clone https://github.com/RECEIPT-H2020/terriajs.git
-cd ..
-nvm use 10 <- it is necessary to run gulp on node version 10
+git clone --recurse-submodules https://github.com/RECEIPT-H2020/TerriaMap.git
+cd TerriaMap
 yarn install
 npx gulp
 ```
@@ -28,7 +25,6 @@ npx gulp
  ## Run locally
 from TerriaMaps folder:
 ```
-nvm use 10 ## if using nvm locally to ensure you are on nodejs version 10
 yarn serve
 open browser on localhost:3001
 ```
@@ -44,12 +40,12 @@ npx gulp release
 ```
 
 
-## Cesium access token  
+## Cesium access token
 You can create a new token at https://cesium.com/ion or use the temporary token:
- 
+
 ```TerriaMap > wwwroot > config.json ```
 
-inside the parameters object: 
+inside the parameters object:
 
 ```cesiumIonAccessToken: <ACCESS_TOKEN>```
 
