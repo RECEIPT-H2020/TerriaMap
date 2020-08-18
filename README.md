@@ -5,13 +5,15 @@
 Requirements:
 Yarn and Node v10. (V10 its important).
 
+
 ### Notes
 - **Note 1**: Master Banches for our forks are named 'receipt'.
 - **Note 2**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
 - **Note 3**, when changing branches: If you encouter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
 - **Note 4**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
 - **Note 5**, use prettier while formatting your code and set it up to prettify on 'file save'
- 
+- **Note 6 - Updating terrija**: When updating terriajs you need to `gulp sync-terriajs-dependencies`
+
 ### Steps: 
 ```
 git clone https://github.com/RECEIPT-H2020/TerriaMap.git
