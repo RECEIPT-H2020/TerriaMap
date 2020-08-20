@@ -6,6 +6,24 @@
       "properties": {
         "marker-color": "#999",
         "marker-size": "large",
+        "marker-symbol": "library",
+        "rc-type": "hotspot",
+        "rc-sector": "agriculture",
+        "story-id": "g-040255313131cc97f334303e7950be79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49,
+          7.70
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "agriculture",
