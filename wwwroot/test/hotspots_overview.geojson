@@ -3,6 +3,73 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -26.3671875,
+              56.9449741808516
+            ],
+            [
+              -45.703125,
+              34.88593094075317
+            ],
+            [
+              1.40625,
+              18.646245142670608
+            ],
+            [
+              20.7421875,
+              33.7243396617476
+            ],
+            [
+              17.9296875,
+              51.6180165487737
+            ],
+            [
+              6.6796875,
+              56.75272287205736
+            ],
+            [
+              -26.3671875,
+              56.9449741808516
+            ]
+          ]
+        ]
+      },
+      "style": {
+        "__comment": "all SVG styles allowed",
+        "fill":"blue",
+        "stroke-width":"10",
+        "fill-opacity":0.6
+      },
+      "className": {
+        "baseVal":"line-style"
+      }
+    },
+
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "library",
+        "rc-type": "hotspot",
+        "rc-sector": "agriculture",
+        "story-id": "g-040255313131cc97f334303e7950be79"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.49,
+          7.70
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "marker-color": "#999",
         "marker-size": "large",
@@ -30,6 +97,16 @@
       },
       "geometry": {
         "type": "LineString",
+        "style": {
+          "__comment": "all SVG styles allowed",
+          "fill":"yellow",
+          "stroke-width":"10",
+          "stroke":"yellow",
+          "fill-opacity":0.6
+        },
+        "className": {
+          "baseVal":"line-style"
+        },
         "coordinates": [
           [
             -0.2197265625,
