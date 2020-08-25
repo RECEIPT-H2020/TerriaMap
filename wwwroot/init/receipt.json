@@ -16,8 +16,7 @@
       "isEnabled": true,
       "opacity": 1
     },
-    
-    { 
+    {
       "name": "Hotspot Overview",
       "type": "group",
       "items": [
@@ -61,7 +60,7 @@
       "url": "test/migration_routes.geojson",
       "zoomOnEnable": false
     },
-    { 
+    {
       "name": "Land suitability",
       "type": "group",
       "preserveOrder": true,
