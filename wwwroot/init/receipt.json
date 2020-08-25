@@ -17,12 +17,42 @@
       "opacity": 1
     },
     {
-      "type": "geojson",
-      "name": "Hotspots overview",
-      "url": "test/hotspots_overview.geojson",
-      "isShown": true,
-      "isEnabled": true,
-      "zoomOnEnable": false
+      "name": "Hotspot Overview",
+      "type": "group",
+      "items": [
+        {
+          "type": "geojson",
+          "name": "Agriculture",
+          "url": "test/agriculture_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Manufacturing",
+          "url": "test/manufacturing_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Coastal Infrastructure",
+          "url": "test/coastal_infrastructure_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Finance",
+          "url": "test/finance_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        }
+      ]
     },
     {
       "type": "geojson",
@@ -30,7 +60,7 @@
       "url": "test/migration_routes.geojson",
       "zoomOnEnable": false
     },
-    { 
+    {
       "name": "Land suitability",
       "type": "group",
       "preserveOrder": true,
