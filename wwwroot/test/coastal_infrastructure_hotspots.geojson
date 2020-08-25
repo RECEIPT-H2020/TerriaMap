@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+      {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Sudan",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.937499999999996,
+          10.31491928581316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "coastalInfrastructure",
+        "rc-title": "Brazil",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.25390625,
+          -3.337953961416472
+        ]
+      }
+    }
+  ]
+}

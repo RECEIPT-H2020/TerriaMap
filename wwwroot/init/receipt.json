@@ -1,0 +1,100 @@
+{
+  "homeCamera": {
+    "west": -28.14367811499203,
+    "south": 6.497506687233124,
+    "east": 42.55996112556878,
+    "north": 49.28516062483808
+  },
+  "catalog": [
+    {
+      "type": "mapbox-style",
+      "name": "EU Lines!- Mapbox Style",
+      "username": "maartenvm",
+      "styleId": "ckb21b6x30r4y1ik2xz1yqc63",
+      "accessToken": "pk.eyJ1IjoibWFhcnRlbnZtIiwiYSI6ImNrMnl1NTJyMTAyNHozaGp3Yndhd2JibTIifQ.-23EtnnBkqN_BpXq2QWlqA",
+      "isShown": true,
+      "isEnabled": true,
+      "opacity": 1
+    },
+    
+    { 
+      "name": "Hotspot Overview",
+      "type": "group",
+      "items": [
+        {
+          "type": "geojson",
+          "name": "Agriculture",
+          "url": "test/agriculture_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Manufacturing",
+          "url": "test/manufacturing_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Coastal Infrastructure",
+          "url": "test/coastal_infrastructure_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Finance",
+          "url": "test/finance_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        }
+      ]
+    },
+    {
+      "type": "geojson",
+      "name": "Migration routes",
+      "url": "test/migration_routes.geojson",
+      "zoomOnEnable": false
+    },
+    { 
+      "name": "Land suitability",
+      "type": "group",
+      "preserveOrder": true,
+      "isOpen": true,
+      "items": [
+        {
+          "name": "Land suitability current",
+          "type": "wms",
+          "url": "http://localhost:8600/geoserver/wms",
+          "layers": "receipt:current_new",
+          "isGeoServer": true,
+          "isEnabled": true,
+          "isShown": false
+        },
+        {
+          "name": "Land suitability 2050",
+          "type": "wms",
+          "url": "http://localhost:8600/geoserver/wms",
+          "layers": "receipt:2050_new",
+          "isGeoServer": true,
+          "isEnabled": true,
+          "isShown": false
+        },
+        {
+          "name": "Land suitability changes",
+          "type": "wms",
+          "url": "http://localhost:8600/geoserver/wms",
+          "layers": "receipt:changes_2050_new",
+          "isGeoServer": true,
+          "isEnabled": true,
+          "isShown": false
+        }
+      ]
+    }
+  ]
+}
