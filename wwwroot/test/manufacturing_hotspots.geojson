@@ -1,0 +1,25 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#999",
+        "marker-size": "large",
+        "marker-symbol": "circle",
+        "rc-type": "hotspot",
+        "rc-sector": "manufacturing",
+        "rc-title": "India",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.57421875,
+          14.26438308756265
+        ]
+      }
+    }
+  ]
+}
