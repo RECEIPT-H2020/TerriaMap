@@ -1,0 +1,163 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Soybean consumption in the EU</title>
+
+    <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.13.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.14.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.10.0"></script>
+
+    <!-- If this page needs it's own dedicated styling -->
+    <link rel="stylesheet" type="text/css" href="./page_001_001.css" />
+  </head>
+
+  <body>
+    <div>
+      <p>
+        Some of the main crops used to produce our food are hidden from plain
+        sight, yet we consume them in such vast quantities that entire food
+        systems and sectors have come to depend on them.
+      </p>
+      <p>
+        Most people associate soy with edamame or vegetarian food products. Yet
+        each EU citizen indirectly consumes as much as 61 kilogrammes (kg) of
+        soy yearly, 93% (57 kg) of which is embedded as animal feed in the
+        animal products that most consumers eat daily.[1].
+      </p>
+      <p>
+        This is because we use vast quantities to feed the livestock that supply
+        the meat and dairy products that many of us eat daily. The highest
+        amount of ‘embedded’ soy is in chicken breast (109 grams per 100 grams),
+        closely followed by eggs (35 grams of soy per egg of 55 grams), salmon
+        steaks (59 grams soy per 100 grams), pork chops (51 grams soy per 100
+        grams of meat), hamburgers (46 grams soy per 100 grams) and cheese (25
+        grams of soy per 100 grams).
+      </p>
+    </div>
+
+
+    <!-- Example stuff from J. Garcia, not to be actually included in this page -->
+    <form id="form">
+      <input type="text" placeholder="Enter message" name="message" />
+      <input type="submit" value="Click to send" />
+    </form>
+
+    <script>
+      form.onsubmit = function() {
+        // iframe.contentWind ow.postMessage(this.message.value, '*');
+        // parent.postMessage(this.message.value, '*'); << Define here the origin
+        parent.postMessage(
+          {
+            me: "I am an object",
+            message: this.message.value,
+            iframe: true
+          },
+          "*"
+        );
+        return false;
+      };
+    </script>
+
+    <br /><br />
+
+    <!--Graphs-->
+    <div id="vis" style="width:300px"></div>
+    <div id="vis2" style="width:300px"></div>
+
+    <!--Youtube Video-->
+    <iframe
+      width="100%"
+      height="200"
+      src="https://www.youtube.com/embed/FjSxaviSLhc"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    >
+    </iframe>
+
+    <br /><br />
+
+    <!--Soundcloud-->
+    <iframe
+      width="100%"
+      height="200"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/308030872&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    >
+    </iframe>
+    <div
+      style="font-size: 10px; color: #CCC;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+    >
+      <a
+        href="https://soundcloud.com/pitbull"
+        title="Pitbull"
+        target="_blank"
+        style="color: #CCC; text-decoration: none;"
+        >Pitbull</a
+      >
+      ·
+      <a
+        href="https://soundcloud.com/pitbull/sets/climate-change-3"
+        title="Climate Change"
+        target="_blank"
+        style="color: #CCC; text-decoration: none;"
+        >Climate Change</a
+      >
+    </div>
+
+    <script type="text/javascript">
+      const spec =
+        "https://raw.githubusercontent.com/vega/vega/master/docs/examples/bar-chart.vg.json";
+      vegaEmbed("#vis", spec)
+        .then(function(result) {})
+        .catch(console.error);
+
+      const spec2 = {
+        $schema: "https://vega.github.io/schema/vega-lite/v4.json",
+        data: {
+          url:
+            "https://raw.githubusercontent.com/vega/vega-lite-v1/master/data/movies.json"
+        },
+        transform: [
+          {
+            filter: {
+              and: [
+                { field: "IMDB Rating", valid: true },
+                { field: "Rotten Tomatoes Rating", valid: true }
+              ]
+            }
+          }
+        ],
+        mark: "rect",
+        width: 300,
+        height: 200,
+        encoding: {
+          x: {
+            bin: { maxbins: 60 },
+            field: "IMDB Rating",
+            type: "quantitative"
+          },
+          y: {
+            bin: { maxbins: 40 },
+            field: "Rotten Tomatoes Rating",
+            type: "quantitative"
+          },
+          color: {
+            aggregate: "count",
+            type: "quantitative"
+          }
+        },
+        config: {
+          view: {
+            stroke: "transparent"
+          }
+        }
+      };
+      vegaEmbed("#vis2", spec2)
+        .then(function(result) {})
+        .catch(console.error);
+    </script>
+  </body>
+</html>
