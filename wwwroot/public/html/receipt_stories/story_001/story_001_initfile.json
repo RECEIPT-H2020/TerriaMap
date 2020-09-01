@@ -1,0 +1,856 @@
+{
+    "version": "0.0.05",
+    "initSources": [
+      {
+        "initFragment": "receipt"
+      },
+      {
+        "sharedCatalogMembers": {
+          "Root Group/Land suitability": {
+            "isOpen": true,
+            "type": "group",
+            "parents": []
+          },
+          "Root Group/User-Added Data": {
+            "isOpen": true,
+            "type": "group",
+            "parents": []
+          },
+          "Root Group/User-Added Data/": {
+            "isOpen": true,
+            "type": "wms-getCapabilities",
+            "parents": [
+              "Root Group/User-Added Data"
+            ]
+          },
+          "Root Group/EU Lines!- Mapbox Style": {
+            "nowViewingIndex": 0,
+            "isEnabled": true,
+            "isShown": true,
+            "isLegendVisible": true,
+            "useOwnClock": false,
+            "opacity": 1,
+            "keepOnTop": false,
+            "splitDirection": 0,
+            "showOnChart": false,
+            "type": "mapbox-style",
+            "parents": []
+          }
+        }
+      },
+      {
+        "initialCamera": {
+          "west": -28.14367811499203,
+          "south": 6.497506687233124,
+          "east": 42.55996112556878,
+          "north": 49.28516062483808,
+          "position": {
+            "x": 9622325.914953757,
+            "y": 1216971.5993512052,
+            "z": 5794703.405466493
+          },
+          "direction": {
+            "x": -0.851635316008111,
+            "y": -0.10770950825680363,
+            "z": -0.5129482920907744
+          },
+          "up": {
+            "x": -0.5088944011338234,
+            "y": -0.06436178099998262,
+            "z": 0.8584195067920799
+          }
+        },
+        "homeCamera": {
+          "west": 109,
+          "south": -45,
+          "east": 158,
+          "north": -8
+        },
+        "baseMapName": "Positron (Light)",
+        "viewerMode": "3d",
+        "currentTime": {
+          "dayNumber": 2459005,
+          "secondsOfDay": 77933
+        },
+        "showSplitter": false,
+        "splitPosition": 0.5
+      },
+      {
+        "stories": [
+          {
+            "title": "Soybean consumption in the EU",
+            "text": "<div class=\"iframe-container\"><iframe src=\"http://localhost:3001/public/html/receipt_stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>" ,
+            "id": "dc586694-9e42-4221-bba0-be3ffcdde8ca",
+            "shareData": {
+              "version": "0.0.05",
+              "initSources": [
+                {
+                  "catalog": [
+                    {
+                      "name": "User-Added Data",
+                      "description": "The group for data that was added by the user via the Add Data panel.",
+                      "info": [],
+                      "isUserSupplied": true,
+                      "isPromoted": false,
+                      "isHidden": false,
+                      "forceProxy": false,
+                      "customProperties": {},
+                      "id": "Root Group/User-Added Data",
+                      "shortReportSections": [],
+                      "isWaitingForDisclaimer": false,
+                      "hideSource": false,
+                      "nameInCatalog": "User-Added Data",
+                      "isOpen": true,
+                      "items": [
+                        {
+                          "name": "",
+                          "description": "",
+                          "info": [],
+                          "isUserSupplied": true,
+                          "isPromoted": false,
+                          "isHidden": false,
+                          "forceProxy": false,
+                          "customProperties": {},
+                          "id": "Root Group/User-Added Data/",
+                          "shortReportSections": [],
+                          "isWaitingForDisclaimer": false,
+                          "hideSource": false,
+                          "nameInCatalog": "",
+                          "isOpen": true,
+                          "items": [],
+                          "preserveOrder": false,
+                          "url": "https://www.climateimpactstories.eu:8600/geoserver/wms",
+                          "titleField": "title",
+                          "flatten": false,
+                          "type": "wms-getCapabilities",
+                          "parents": [
+                            "Root Group/User-Added Data"
+                          ]
+                        }
+                      ],
+                      "preserveOrder": false,
+                      "type": "group",
+                      "parents": []
+                    }
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 1,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "type": "mapbox-style",
+                      "parents": []
+                    },
+                    "Root Group/Hotspots overview": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "type": "geojson",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data/": {
+                      "isOpen": true,
+                      "type": "wms-getCapabilities",
+                      "parents": [
+                        "Root Group/User-Added Data"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -37.93371893869204,
+                    "south": -15.959323804379544,
+                    "east": 38.736013104065805,
+                    "north": 51.91355196874498,
+                    "position": {
+                      "x": 13982968.056586307,
+                      "y": 97901.07664961723,
+                      "z": 5177064.716772907
+                    },
+                    "direction": {
+                      "x": -0.9385108098258491,
+                      "y": -0.006570938184041558,
+                      "z": -0.3451873152527632
+                    },
+                    "up": {
+                      "x": -0.34517885496625605,
+                      "y": -0.0024167531100068133,
+                      "z": 0.9385338125973883
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.5
+                }
+              ]
+            }
+          },
+          {
+            "title": "The EU’s reliance on South America for soybean imports",
+            "text": "<div class=\"iframe-container\"><iframe src=\"http://localhost:3001/public/html/receipt_stories/story_001/page_001_002/page_001_002.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>" ,
+            "id": "d4d42f50-3626-4400-a65f-12cb1699b5f8",
+            "shareData": {
+              "version": "0.0.05",
+              "initSources": [
+                {
+                  "catalog": [
+                    {
+                      "name": "User-Added Data",
+                      "description": "The group for data that was added by the user via the Add Data panel.",
+                      "info": [],
+                      "isUserSupplied": true,
+                      "isPromoted": false,
+                      "isHidden": false,
+                      "forceProxy": false,
+                      "customProperties": {},
+                      "id": "Root Group/User-Added Data",
+                      "shortReportSections": [],
+                      "isWaitingForDisclaimer": false,
+                      "hideSource": false,
+                      "nameInCatalog": "User-Added Data",
+                      "isOpen": true,
+                      "items": [
+                        {
+                          "name": "",
+                          "description": "",
+                          "info": [],
+                          "isUserSupplied": true,
+                          "isPromoted": false,
+                          "isHidden": false,
+                          "forceProxy": false,
+                          "customProperties": {},
+                          "id": "Root Group/User-Added Data/",
+                          "shortReportSections": [],
+                          "isWaitingForDisclaimer": false,
+                          "hideSource": false,
+                          "nameInCatalog": "",
+                          "isOpen": true,
+                          "items": [],
+                          "preserveOrder": false,
+                          "url": "https://www.climateimpactstories.eu:8600/geoserver/wms",
+                          "titleField": "title",
+                          "flatten": false,
+                          "type": "wms-getCapabilities",
+                          "parents": [
+                            "Root Group/User-Added Data"
+                          ]
+                        }
+                      ],
+                      "preserveOrder": false,
+                      "type": "group",
+                      "parents": []
+                    }
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 1,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "type": "mapbox-style",
+                      "parents": []
+                    },
+                    "Root Group/Hotspots overview": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": false,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "type": "geojson",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability/Land suitability current": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 0.6,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "styles": "",
+                      "type": "wms",
+                      "parents": [
+                        "Root Group/Land suitability"
+                      ]
+                    },
+                    "Root Group/User-Added Data": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data/": {
+                      "isOpen": true,
+                      "type": "wms-getCapabilities",
+                      "parents": [
+                        "Root Group/User-Added Data"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.685798331672817,
+                    "south": 0.6230343193339822,
+                    "east": 1.3921113431688812,
+                    "north": 15.091451224374557,
+                    "position": {
+                      "x": 7686743.350570608,
+                      "y": -489918.5767272579,
+                      "z": 1060249.8135868665
+                    },
+                    "direction": {
+                      "x": -0.9886295052261422,
+                      "y": 0.06301081459614638,
+                      "z": -0.13653328766364417
+                    },
+                    "up": {
+                      "x": -0.13625681581665977,
+                      "y": 0.008684398870861872,
+                      "z": 0.9906354835961393
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          },
+          {
+            "title": "Rising temperatures",
+            "text": "<div>Temperatures in Ghana have risen and are projected to keep rising as climate change continues.</div><div><br></div><div><img src=\"https://nlesc.sharepoint.com/sites/Receipt622/Shared%20Documents/General/ghana_story/temp_change.png\"><br></div><div><br></div>",
+            "id": "1339f11e-3dfd-4113-94ce-ed58b2bf821b",
+            "shareData": {
+              "version": "0.0.05",
+              "initSources": [
+                {
+                  "catalog": [
+                    {
+                      "name": "User-Added Data",
+                      "description": "The group for data that was added by the user via the Add Data panel.",
+                      "info": [],
+                      "isUserSupplied": true,
+                      "isPromoted": false,
+                      "isHidden": false,
+                      "forceProxy": false,
+                      "customProperties": {},
+                      "id": "Root Group/User-Added Data",
+                      "shortReportSections": [],
+                      "isWaitingForDisclaimer": false,
+                      "hideSource": false,
+                      "nameInCatalog": "User-Added Data",
+                      "isOpen": true,
+                      "items": [
+                        {
+                          "name": "",
+                          "description": "",
+                          "info": [],
+                          "isUserSupplied": true,
+                          "isPromoted": false,
+                          "isHidden": false,
+                          "forceProxy": false,
+                          "customProperties": {},
+                          "id": "Root Group/User-Added Data/",
+                          "shortReportSections": [],
+                          "isWaitingForDisclaimer": false,
+                          "hideSource": false,
+                          "nameInCatalog": "",
+                          "isOpen": true,
+                          "items": [],
+                          "preserveOrder": false,
+                          "url": "https://www.climateimpactstories.eu:8600/geoserver/wms",
+                          "titleField": "title",
+                          "flatten": false,
+                          "type": "wms-getCapabilities",
+                          "parents": [
+                            "Root Group/User-Added Data"
+                          ]
+                        }
+                      ],
+                      "preserveOrder": false,
+                      "type": "group",
+                      "parents": []
+                    }
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 1,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "type": "mapbox-style",
+                      "parents": []
+                    },
+                    "Root Group/Hotspots overview": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": false,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "type": "geojson",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability/Land suitability changes": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 0.6,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "styles": "",
+                      "type": "wms",
+                      "parents": [
+                        "Root Group/Land suitability"
+                      ]
+                    },
+                    "Root Group/User-Added Data": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data/": {
+                      "isOpen": true,
+                      "type": "wms-getCapabilities",
+                      "parents": [
+                        "Root Group/User-Added Data"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.685798331672817,
+                    "south": 0.6230343193339822,
+                    "east": 1.3921113431688812,
+                    "north": 15.091451224374557,
+                    "position": {
+                      "x": 7686743.350570608,
+                      "y": -489918.5767272579,
+                      "z": 1060249.8135868665
+                    },
+                    "direction": {
+                      "x": -0.9886295052261422,
+                      "y": 0.06301081459614638,
+                      "z": -0.13653328766364417
+                    },
+                    "up": {
+                      "x": -0.13625681581665974,
+                      "y": 0.0086843988708627,
+                      "z": 0.9906354835961392
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          },
+          {
+            "title": "Land suitability",
+            "text": "<span style=\"font-size: 14.4px;\">Due to effects caused by climate change, the proportion of land that is suitable for cocoa production will decline significantly in the coming 30 years.</span><div><span style=\"font-size: 14.4px;\"><br></span></div><div><span style=\"font-size: 14.4px;\">These maps show the land suitability as it is currently compared to the projected situation in 2050.</span></div>",
+            "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd4",
+            "shareData": {
+              "version": "0.0.05",
+              "initSources": [
+                {
+                  "catalog": [
+                    {
+                      "name": "User-Added Data",
+                      "description": "The group for data that was added by the user via the Add Data panel.",
+                      "info": [],
+                      "isUserSupplied": true,
+                      "isPromoted": false,
+                      "isHidden": false,
+                      "forceProxy": false,
+                      "customProperties": {},
+                      "id": "Root Group/User-Added Data",
+                      "shortReportSections": [],
+                      "isWaitingForDisclaimer": false,
+                      "hideSource": false,
+                      "nameInCatalog": "User-Added Data",
+                      "isOpen": true,
+                      "items": [
+                        {
+                          "name": "",
+                          "description": "",
+                          "info": [],
+                          "isUserSupplied": true,
+                          "isPromoted": false,
+                          "isHidden": false,
+                          "forceProxy": false,
+                          "customProperties": {},
+                          "id": "Root Group/User-Added Data/",
+                          "shortReportSections": [],
+                          "isWaitingForDisclaimer": false,
+                          "hideSource": false,
+                          "nameInCatalog": "",
+                          "isOpen": true,
+                          "items": [],
+                          "preserveOrder": false,
+                          "url": "https://www.climateimpactstories.eu:8600/geoserver/wms",
+                          "titleField": "title",
+                          "flatten": false,
+                          "type": "wms-getCapabilities",
+                          "parents": [
+                            "Root Group/User-Added Data"
+                          ]
+                        }
+                      ],
+                      "preserveOrder": false,
+                      "type": "group",
+                      "parents": []
+                    }
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 1,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "type": "mapbox-style",
+                      "parents": []
+                    },
+                    "Root Group/Hotspots overview": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": false,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "type": "geojson",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/Land suitability/Land suitability current": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 0.6,
+                      "keepOnTop": false,
+                      "splitDirection": -1,
+                      "showOnChart": false,
+                      "styles": "",
+                      "type": "wms",
+                      "parents": [
+                        "Root Group/Land suitability"
+                      ]
+                    },
+                    "Root Group/Land suitability/Land suitability 2050": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 0.6,
+                      "keepOnTop": false,
+                      "splitDirection": 1,
+                      "showOnChart": false,
+                      "styles": "",
+                      "type": "wms",
+                      "parents": [
+                        "Root Group/Land suitability"
+                      ]
+                    },
+                    "Root Group/User-Added Data": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data/": {
+                      "isOpen": true,
+                      "type": "wms-getCapabilities",
+                      "parents": [
+                        "Root Group/User-Added Data"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.685798331672817,
+                    "south": 0.6230343193339822,
+                    "east": 1.3921113431688812,
+                    "north": 15.091451224374557,
+                    "position": {
+                      "x": 7686743.350570608,
+                      "y": -489918.5767272579,
+                      "z": 1060249.8135868665
+                    },
+                    "direction": {
+                      "x": -0.9886295052261422,
+                      "y": 0.06301081459614638,
+                      "z": -0.13653328766364417
+                    },
+                    "up": {
+                      "x": -0.13625681581665927,
+                      "y": 0.008684398870864586,
+                      "z": 0.9906354835961394
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": true,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          },
+          {
+            "title": "Migration patterns",
+            "text": "<div>With land suitability in Ghana decreasing, many farmers will lose their income.</div><div><span style=\"font-size: 0.9rem;\"><br></span></div><div><span style=\"font-size: 0.9rem;\">Consequently, migration from Ghana and neighbouring countries is expected to increase during this period. This figure shows the main migration patterns in the northern part of Africa.</span></div><div><br></div><img src=\"https://nlesc.sharepoint.com/sites/Receipt622/Shared%20Documents/General/ghana_story/MIA_work.jpg\">",
+            "id": "3181a3ab-abe6-4ee5-8322-eea489db11a6",
+            "shareData": {
+              "version": "0.0.05",
+              "initSources": [
+                {
+                  "catalog": [
+                    {
+                      "name": "User-Added Data",
+                      "description": "The group for data that was added by the user via the Add Data panel.",
+                      "info": [],
+                      "isUserSupplied": true,
+                      "isPromoted": false,
+                      "isHidden": false,
+                      "forceProxy": false,
+                      "customProperties": {},
+                      "id": "Root Group/User-Added Data",
+                      "shortReportSections": [],
+                      "isWaitingForDisclaimer": false,
+                      "hideSource": false,
+                      "nameInCatalog": "User-Added Data",
+                      "isOpen": true,
+                      "items": [
+                        {
+                          "name": "",
+                          "description": "",
+                          "info": [],
+                          "isUserSupplied": true,
+                          "isPromoted": false,
+                          "isHidden": false,
+                          "forceProxy": false,
+                          "customProperties": {},
+                          "id": "Root Group/User-Added Data/",
+                          "shortReportSections": [],
+                          "isWaitingForDisclaimer": false,
+                          "hideSource": false,
+                          "nameInCatalog": "",
+                          "isOpen": true,
+                          "items": [],
+                          "preserveOrder": false,
+                          "url": "https://www.climateimpactstories.eu:8600/geoserver/wms",
+                          "titleField": "title",
+                          "flatten": false,
+                          "type": "wms-getCapabilities",
+                          "parents": [
+                            "Root Group/User-Added Data"
+                          ]
+                        }
+                      ],
+                      "preserveOrder": false,
+                      "type": "group",
+                      "parents": []
+                    }
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "opacity": 1,
+                      "keepOnTop": false,
+                      "splitDirection": 0,
+                      "showOnChart": false,
+                      "type": "mapbox-style",
+                      "parents": []
+                    },
+                    "Root Group/Hotspots overview": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": false,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "type": "geojson",
+                      "parents": []
+                    },
+                    "Root Group/Migration routes": {
+                      "nowViewingIndex": 0,
+                      "isEnabled": true,
+                      "isShown": true,
+                      "isLegendVisible": true,
+                      "useOwnClock": false,
+                      "type": "geojson",
+                      "parents": []
+                    },
+                    "Root Group/Example Datasets": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data": {
+                      "isOpen": true,
+                      "type": "group",
+                      "parents": []
+                    },
+                    "Root Group/User-Added Data/": {
+                      "isOpen": true,
+                      "type": "wms-getCapabilities",
+                      "parents": [
+                        "Root Group/User-Added Data"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.747085704820195,
+                    "south": 3.925090951640218,
+                    "east": 21.948458347810256,
+                    "north": 39.21726891121903,
+                    "position": {
+                      "x": 9180875.544915354,
+                      "y": 1062374.9893074997,
+                      "z": 3737436.708850657
+                    },
+                    "direction": {
+                      "x": -0.9208497662953993,
+                      "y": -0.10655713127096096,
+                      "z": -0.37507504007733156
+                    },
+                    "up": {
+                      "x": -0.37258881344820005,
+                      "y": -0.04311451939051137,
+                      "z": 0.9269944521468225
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
