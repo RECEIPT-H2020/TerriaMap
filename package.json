@@ -33,7 +33,7 @@
     "awsS3ServerConfigOverridePath": "s3://terria-apps/map/privateserverconfig-2016-08-31.json",
     "awsS3ClientConfigOverridePath": "s3://terria-apps/map/privateclientconfig-2018-11-19.json",
     "docker": {
-      "name": "data61/terria-terriamap",
+      "name": "receipt/terriamap",
       "include": "wwwroot node_modules devserverconfig.json index.js package.json version.js"
     }
   },
@@ -82,7 +82,7 @@
   },
   "scripts": {
     "docker-build-local": "node ./deploy/docker/create-docker-context-for-node-components.js --build --push --tag auto --local",
-    "docker-build-prod": "node ./deploy/docker/create-docker-context-for-node-components.js --build --push --tag auto",
+    "docker-build-prod": "node ./deploy/docker/create-docker-context-for-node-components.js --build --tag auto",
     "docker-build-ci": "node ./deploy/docker/create-docker-context-for-node-components.js --build",
     "start": "pm2 start ecosystem.config.js --update-env -- --config-file devserverconfig.json",
     "serve": "pm2 update && yarn start && gulp watch",
