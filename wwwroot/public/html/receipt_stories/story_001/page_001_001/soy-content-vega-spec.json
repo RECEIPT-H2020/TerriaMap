@@ -1,0 +1,28 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "title": "Soy content in livestock products in the EU-28 (2013)",
+  "data": {
+    "url": "soy-content.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "grams_per_kg",
+      "type": "quantitative",
+      "title": "Grams per kg"
+    },
+    "y": {
+      "field": "product",
+      "type": "nominal",
+      "title": "Product",
+      "scale": {
+        "domain": ["beef", "pork", "broilers", "other meat", "eggs", "consumption milk", "consumption milk products", "cheese", "butter", "condensed milk", "milk powder", "other dairy", "farmed fish"]
+      }
+    },
+    "color": {
+      "field": "soy_product",
+      "type": "nominal",
+      "title": "Soy product"
+    }
+  }
+}
