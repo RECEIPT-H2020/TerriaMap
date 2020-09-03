@@ -23,7 +23,15 @@
         {
           "type": "geojson",
           "name": "Agriculture",
-          "url": "test/agriculture_hotspots.geojson",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/agriculture_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Cooperation and Development",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/cooperation_and_development_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -31,7 +39,7 @@
         {
           "type": "geojson",
           "name": "Manufacturing",
-          "url": "test/manufacturing_hotspots.geojson",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/manufacturing_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -39,7 +47,7 @@
         {
           "type": "geojson",
           "name": "Coastal Infrastructure",
-          "url": "test/coastal_infrastructure_hotspots.geojson",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/coastal_infrastructure_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -47,7 +55,7 @@
         {
           "type": "geojson",
           "name": "Finance",
-          "url": "test/finance_hotspots.geojson",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/finance_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
