@@ -1,0 +1,40 @@
+product,soy_product,grams_per_kg
+beef,beans,1
+beef,meal,293
+beef,oil,3
+pork,beans,2
+pork,meal,325
+pork,oil,19
+broilers,beans,80
+broilers,meal,833
+broilers,oil,45
+other meat,beans,0
+other meat,meal,892
+other meat,oil,40
+eggs,beans,1
+eggs,meal,33
+eggs,oil,1
+consumption milk,beans,0
+consumption milk,meal,32
+consumption milk,oil,1
+consumption milk products,beans,0
+consumption milk products,meal,17
+consumption milk products,oil,0
+cheese,beans,1
+cheese,meal,240
+cheese,oil,5
+butter,beans,0
+butter,meal,39
+butter,oil,1
+condensed milk,beans,0
+condensed milk,meal,71
+condensed milk,oil,2
+milk powder,beans,1
+milk powder,meal,303
+milk powder,oil,7
+other dairy,beans,0
+other dairy,meal,32
+other dairy,oil,1
+farmed fish,beans,0
+farmed fish,meal,650
+farmed fish,oil,0
