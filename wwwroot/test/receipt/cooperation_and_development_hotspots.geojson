@@ -1,21 +1,24 @@
 {
   "type": "FeatureCollection",
   "features": [
-      {
+
+    {
       "type": "Feature",
       "properties": {
         "marker-color": "#999",
         "marker-size": "large",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
-        "rc-sector": "agriculture",
-        "story-id": "g-b4a5c0c786021a3f54775f44235c53bd"
+        "rc-sector": "manufacturing",
+        "rc-title": "India",
+        "rc-description": "Description of the tooltip",
+        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3",
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.52734375,
-          6.489983332670651
+          78.57421875,
+          14.26438308756265
         ]
       }
     }
