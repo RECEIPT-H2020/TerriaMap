@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soybean consumption in the EU</title>
     <link href="../storylines_styling.css" type="text/css" rel="stylesheet" />
+    <script src="../../../../js/utilities.js"></script>
 </head>
 
 <body>
@@ -26,8 +27,10 @@
                     93% (57 kg) of which is embedded as animal feed in the animal products that most consumers eat
                     daily.
                     <sup>
-                        <a class="button" href="#popup1"><sup>[1]</sup></a>
-                    </sup>
+                        <a href="#" onclick=showPopup("https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish")>
+                          [1]
+                        </a>
+                    </sup>.
                     This is because we use vast quantities to feed the livestock that supply the meat and dairy products
                     that many of us eat daily. The highest amount of ‘embedded’ soy is in chicken breast (109 grams per
                     100 grams), closely followed by eggs (35 grams of soy per egg of 55 grams), salmon steaks (59 grams
@@ -38,12 +41,9 @@
         </section>
         <div id="popup1" class="overlay">
             <div class="popup">
-                <a class="close" href="#">&times;</a>
+                <a class="close" href="#" onclick=closePopup()>&times;</a>
                 <div class="content">
-                    <a
-                        href="https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish">
-                        https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish
-                    </a>
+                    <a href="#" id='url'></a>
                 </div>
             </div>
         </div>
