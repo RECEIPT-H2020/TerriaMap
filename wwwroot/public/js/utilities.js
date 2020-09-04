@@ -8,7 +8,6 @@ showPopup = (url,content) =>{
 }
 
 closePopup = () => {
-    console.log('hi')
     const popup = document.getElementById('popup1')
     popup.classList.remove('showPopup')
 }
