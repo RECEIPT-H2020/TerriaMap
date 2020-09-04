@@ -90,3 +90,7 @@ header h4 {
   overflow: auto;
   font-size: small;
 }
+.chart {
+  width:90%;
+  max-width: 500px;
+}
