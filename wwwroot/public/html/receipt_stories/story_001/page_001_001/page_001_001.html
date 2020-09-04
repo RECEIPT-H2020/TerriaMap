@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soybean consumption in the EU</title>
-    <link href="../storylines_styling.css" type="text/css" rel="stylesheet"/>
+    <link href="../storylines_styling.css" type="text/css" rel="stylesheet" />
+    <script src="../../../../js/utilities.js"></script>
 </head>
+
 <body>
     <div class="wrapper">
         <header>
             <h4>Soybean consumption in the EU</h4>
         </header>
-         <section class="content">
-                <div class="banner">
-                </div>
-                <div>
-                    <p>
-                    Some of the main crops used to produce our food are hidden from plain sight, 
-                    <span class="nav-link" onclick="window.open(' https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish','popup','width=600,height=500')">
-                        <sup> [1] </sup>
-                    </span>
-                    yet we consume them in such vast quantities that entire food systems and sectors have come to depend on them.
-                    Most people associate soy with 
-                    <a target="_blank" class="nav-link" onclick="window.open(' https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish','width=600,height=500')">
-                        <sup> [2] </sup>
-                    </a>
-                    edamame or vegetarian food products. 
-                    Yet each EU citizen indirectly consumes as much as 61 kilogrammes (kg) of soy yearly, 93% (57 kg) of which is embedded as animal feed in the animal products that most consumers eat daily.
-                    
+        <section class="content">
+            <div class="banner">
+            </div>
+            <div>
+                <p>
+                    Some of the main crops used to produce our food are hidden from plain sight,
+                    yet we consume them in such vast quantities that entire food systems and sectors have come to depend
+                    on them.
+                    Most people associate soy with edamame or vegetarian food products.
+                    Yet each EU citizen indirectly consumes as much as 61 kilogrammes (kg) of soy yearly,
+                    93% (57 kg) of which is embedded as animal feed in the animal products that most consumers eat
+                    daily.
                     <sup>
-                        <a class="button" href="#popup1"><sup>[3]</sup></a>
-                    </sup>
-                    
-                    This is because we use vast quantities to feed the livestock that supply the meat and dairy products that many of us eat daily. The highest amount of ‘embedded’ soy is in chicken breast (109 grams per 100 grams), closely followed by eggs (35 grams of soy per egg of 55 grams), salmon steaks (59 grams soy per 100 grams), pork chops (51 grams soy per 100 grams of meat), hamburgers (46 grams soy per 100 grams) and cheese (25 grams of soy per 100 grams).
-                    </p>
-                    <div id="popup1" class="overlay">
-                        <div class="popup">
-                            <a class="close" href="#">&times;</a>
-                            <div class="content">
-                        <a href="https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish">
-                            https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish
+                        <a href="#" onclick=showPopup("https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish")>
+                          [1]
                         </a>
-                    </div>
-                    </div>
-                </div>
-                </div>
-                </div>  
+                    </sup>.
+                    This is because we use vast quantities to feed the livestock that supply the meat and dairy products
+                    that many of us eat daily. The highest amount of ‘embedded’ soy is in chicken breast (109 grams per
+                    100 grams), closely followed by eggs (35 grams of soy per egg of 55 grams), salmon steaks (59 grams
+                    soy per 100 grams), pork chops (51 grams soy per 100 grams of meat), hamburgers (46 grams soy per
+                    100 grams) and cheese (25 grams of soy per 100 grams).
+                </p>
+            </div>
         </section>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a class="close" href="#" onclick=closePopup()>&times;</a>
+                <div class="content">
+                    <a href="#" id='url'></a>
+                </div>
+            </div>
         </div>
+    </div>
 </body>
+
 </html>

@@ -1,49 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drivers of degradation</title>
-    <link href="../storylines_styling.css" type="text/css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Why suspend soybean exports?</title>
+  <link href="../storylines_styling.css" type="text/css" rel="stylesheet" />
+  <script src="../../../../js/utilities.js"></script>
 </head>
+
 <body>
-    <div class="wrapper">
-        <header>
-            <h4>Why suspend soybean exports?</h4>
-        </header>
-         <section class="content">
-                <div class="banner">
-                </div>
-                <div>
-                <p>
-                    Governments are acutely aware that keeping everyone fed at affordable prices is crucial for socio-political and economic stability, as well as for food security. 
-                    In South America, soy is a key feed ingredient for its own booming meat industry. 
-                    Brazil’s domestic market consumed 23% of its soybean production, predominantly to sustain its feed and livestock industries, which are among the largest in the world[1]. 
-                    With yields in this year’s growing season seriously reduced, worries over making sure there’s enough food for its own citizens – and to sustain its own livestock industry - have led domestic supply be prioritised over export sales.
-                </p>
-                  <p>
-                    Regional problems with coastal infrastructure have also been a contributory factor to this decision. 
-                    Brazil’s northern port of Santarem has become the primary location for the country's growing exports yet lack of investment into rail and train infrastructure means it continues to rely on waterways to carry soybeans from Mato Grosso to port. 
-                    Reduced water levels have disrupted these waterways . 
-                    Exports from the Brazilian port of Santos are still significantly reduced following severe damage in 2021 as a result of flooding, and there is a significant concern that sea-level rise due to climate change will cause structural damage to critical infrastructure.
-                  </p>
-                  <p>
-                    Similarly, prolonged drought has led to receding river levels on all major rivers in Argentina[2]. This has led to disruption at its port complex along the Parana River. 
-                    Export supplies are reduced due to the inability to transport them to port.
-                  </p>
-                </div>
-        </section>
-        <hr/>
-        <section>
-          <ol>
-            <li>
-              <a href="https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/">https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/</a>
-            </li>
-            <li>
-              <a href=" https://www.feednavigator.com/Article/2020/05/05/Pressure-on-Argentina-s-soy-crushing-sector"> https://www.feednavigator.com/Article/2020/05/05/Pressure-on-Argentina-s-soy-crushing-sector</a>
-            </li>
-          </ol>
-        </section>
+  <div class="wrapper">
+    <header>
+      <h4>Why suspend soybean exports?</h4>
+    </header>
+    <section class="content">
+      <div class="banner">
+      </div>
+      <div>
+        <p>
+          Governments are acutely aware that keeping everyone fed at affordable prices is crucial for socio-political
+          and economic stability, as well as for food security.
+          In South America, soy is a key feed ingredient for its own booming meat industry.
+          Brazil’s domestic market consumed 23% of its soybean production, predominantly to sustain its feed and
+          livestock industries, which are among the largest in the world
+          <sup>
+            <a href="#"
+              onclick=showPopup("https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/")>
+              [1]
+            </a>
+          </sup>.
+          With yields in this year’s growing season seriously reduced, worries over making sure there’s enough food for
+          its own citizens – and to sustain its own livestock industry - have led domestic supply be prioritised over
+          export sales.
+        </p>
+        <p>
+          Regional problems with coastal infrastructure have also been a contributory factor to this decision.
+          Brazil’s northern port of Santarem has become the primary location for the country's growing exports yet lack
+          of investment into rail and train infrastructure means it continues to rely on waterways to carry soybeans
+          from Mato Grosso to port.
+        </p>
+        <p>
+          Reduced water levels have disrupted these waterways .
+          Exports from the Brazilian port of Santos are still significantly reduced following severe damage in 2021 as a
+          result of flooding, and there is a significant concern that sea-level rise due to climate change will cause
+          structural damage to critical infrastructure.
+        </p>
+        <p>
+          Similarly, prolonged drought has led to receding river levels on all major rivers in Argentina
+          <sup>
+            <a href="#"
+              onclick=showPopup("https://www.feednavigator.com/Article/2020/05/05/Pressure-on-Argentina-s-soy-crushing-sector")>
+              [2]
+            </a>
+          </sup>.
+          This has led to disruption at its port complex along the Parana River.
+          Export supplies are reduced due to the inability to transport them to port.
+        </p>
+      </div>
+    </section>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <a class="close" href="#" onclick=closePopup()>&times;</a>
+        <div class="content">
+          <a href="#" id='url'></a>
         </div>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>

@@ -1,92 +1,92 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 body {
-    overflow: hidden;
+  overflow: hidden;
 }
 li {
-    font-size: 0.7rem;
-    margin: 0 0 10px 0;
+  font-size: 0.7rem;
+  margin: 0 0 10px 0;
 }
 a {
-    font-size: 0.7rem;
-    overflow-wrap: break-word;
-    text-decoration: none;
+  font-size: 0.7rem;
+  overflow-wrap: break-word;
+  text-decoration: none;
 }
 sup {
-    font-size: small;
-    font-weight: 500;
-    cursor: pointer;
-    color: #551A8B;
+  font-size: small;
+  font-weight: 500;
+  cursor: pointer;
+  color: #551a8b;
 }
 header {
-    position: sticky;
-    top: -5px;
-    z-index: 11;
-    background: #fff;
+  position: sticky;
+  top: -5px;
+  z-index: 11;
+  background: #fff;
 }
-header h4{
-    font-size: 1.2rem;
-    color: #404040;
+header h4 {
+  font-size: 1.2rem;
+  color: #404040;
 }
 .wrapper {
-    font-family: "Montserrat";
-    max-height: 90vh;
-    overflow-y:scroll;
-    padding:0 10px;
+  font-family: "Montserrat";
+  max-height: 90vh;
+  overflow-y: scroll;
+  padding: 0 10px;
 }
 
 .banner {
-    background-image: url(../images/soybean.jpg);
-    background-size: cover;
-    height: 200px;
-    margin: 5px 0;
-    position: relative;
+  background-image: url(../images/soybean.jpg);
+  background-size: cover;
+  height: 200px;
+  margin: 5px 0;
+  position: relative;
 }
 
 .content p {
-    font-size: calc(0.7em + 0.2vw);
-    line-height: calc(1.5em + 0.5vw);
+  font-size: calc(0.7em + 0.2vw);
+  line-height: calc(1.5em + 0.5vw);
 }
 .overlay {
-    display: flex;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0.7);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay:target {
-    visibility: visible;
-    opacity: 1;
-  }
-  .popup {
-    margin: 70px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    width: 30%;
-    position: relative;
-    transition: all 5s ease-in-out;
-  }
-  .popup .close {
-    position: absolute;
-    top: -5px;
-    right: 5px;
-    transition: all 200ms;
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #333;
-  }
-  .popup .close:hover {
-    color: #0a478d;
-  }
-  .popup .content {
-    max-height: 30%;
-    overflow: auto;
-    font-size: small;
-  }
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.showPopup {
+  visibility: visible;
+  opacity: 1;
+}
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: -5px;
+  right: 5px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #0a478d;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+  font-size: small;
+}
