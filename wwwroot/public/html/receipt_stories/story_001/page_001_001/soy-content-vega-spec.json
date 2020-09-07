@@ -1,6 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Soy content in livestock products in the EU-28 (2013)",
+  "title":{
+    "text": "Soy content in livestock products in the EU-28 (2013)",
+    "fontSize": 10,
+    "frame":"bounds"
+  },
+  "width":"container",
   "data": {
     "url": "soy-content.csv"
   },
@@ -22,7 +27,10 @@
     "color": {
       "field": "soy_product",
       "type": "nominal",
-      "title": "Soy product"
+      "title": "Soy product",
+      "legend":{
+        "orient": "right"
+      }
     }
   }
 }
