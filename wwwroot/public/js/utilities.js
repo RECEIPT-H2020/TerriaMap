@@ -12,12 +12,11 @@ getData = () => {
 resetChart = async () => {
     const res = await getData();
     const vegaEmbed = window.vegaEmbed;
+    vegaEmbed("#vis", "soy-content-vega-spec.json")
+        .catch(console.error);
     window.addEventListener('resize', () => {
         if (window.innerWidth <= 420) {
             vegaEmbed("#vis", res)
-        } else {
-            vegaEmbed("#vis", "soy-content-vega-spec.json")
-                .catch(console.error);
         }
     });
 }

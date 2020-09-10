@@ -1,30 +1,40 @@
 
 window.onload = () => {
     const all_links = document.querySelectorAll('.preview a');
-    minipreview(all_links);
+    loadJson(all_links);
+    resetChart();
 }
-const minipreview = (links) => {
-    links.forEach(element => {
-        generate(element);
-    });
+
+const loadJson = (all_links) => {
+    fetch('links.json')
+        .then(response => response.json())
+        .then(content => setData(content, all_links))
 }
-const generate = (el) => {
-    createElement(el);
-    addEventsListener(el);
+const setData = (data, links) => {
+    data.map((item, index) => {
+        if (item['text'] == links[index].textContent.replace(/[\[\]']+/g, '')) {
+            item['element'] = links[index]
+            console.log('setData');
+            createElement(item)
+        }
+    })
+
 }
 const createElement = (el) => {
     const wrapper = document.createElement('div');
     wrapper.classList.add('mini-preview-wrapper');
     const header = document.createElement('h5');
-    header.textContent = "The Argentine portion of the soybean commodity chain";
+    header.textContent = el.title
     const screenshot = document.createElement('div');
     screenshot.classList.add('screenshot');
     const image = document.createElement('img');
-    image.src = "../../images/screenshots/page_001_002_1.png";
+    image.src = el.image;
     screenshot.append(image);
     wrapper.append(header)
     wrapper.append(screenshot)
-    el.appendChild(wrapper);
+    el.element.appendChild(wrapper);
+    console.log('createElement');
+    addEventsListener(el.element);
 }
 const addEventsListener = (el) => {
     el.addEventListener('mouseenter', (event) => setPosition(event));
@@ -40,7 +50,7 @@ const setPosition = (event) => {
     }
 }
 const resetPosition = () => {
-    const wrapper = event.target.querySelector('mini-preview-wrapper');
+    const wrapper = event.target.querySelector('.mini-preview-wrapper');
     wrapper.classList.remove("left", "right");
 
 }
