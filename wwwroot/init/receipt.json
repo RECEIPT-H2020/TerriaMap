@@ -9,53 +9,32 @@
     {
       "type": "mapbox-style",
       "name": "EU Lines!- Mapbox Style",
-      "username": "maartenvm",
-      "styleId": "ckb21b6x30r4y1ik2xz1yqc63",
-      "accessToken": "pk.eyJ1IjoibWFhcnRlbnZtIiwiYSI6ImNrMnl1NTJyMTAyNHozaGp3Yndhd2JibTIifQ.-23EtnnBkqN_BpXq2QWlqA",
-      "isShown": true,
+      "nowViewingIndex": 0,
       "isEnabled": true,
-      "opacity": 1
+      "isShown": true,
+      "isLegendVisible": false,
+      "useOwnClock": false,
+      "opacity": 1,
+      "keepOnTop": false,
+      "splitDirection": 0,
+      "showOnChart": false,
+      "zoomOnEnable": false,
+      "username": "maartenvm",
+      "styleId": "ckewhqwha0rfb19nweocli0qd",
+      "accessToken": "pk.eyJ1IjoibWFhcnRlbnZtIiwiYSI6ImNrMnl1NTJyMTAyNHozaGp3Yndhd2JibTIifQ.-23EtnnBkqN_BpXq2QWlqA",
+      "parents": []
     },
     {
       "name": "Hotspot Overview",
       "type": "group",
+      "isShown": true,
+      "isEnabled": true,
+      "zoomOnEnable": false,      
       "items": [
         {
           "type": "geojson",
           "name": "Agriculture",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/agriculture_hotspots.geojson",
-          "isShown": true,
-          "isEnabled": true,
-          "zoomOnEnable": false
-        },
-        {
-          "type": "geojson",
-          "name": "Cooperation and Development",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/cooperation_and_development_hotspots.geojson",
-          "isShown": true,
-          "isEnabled": true,
-          "zoomOnEnable": false
-        },
-        {
-          "type": "geojson",
-          "name": "Manufacturing",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/manufacturing_hotspots.geojson",
-          "isShown": true,
-          "isEnabled": true,
-          "zoomOnEnable": false
-        },
-        {
-          "type": "geojson",
-          "name": "Coastal Infrastructure",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/coastal_infrastructure_hotspots.geojson",
-          "isShown": true,
-          "isEnabled": true,
-          "zoomOnEnable": false
-        },
-        {
-          "type": "geojson",
-          "name": "Finance",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/finance_hotspots.geojson",
+          "url": "http://localhost:3001/public/json/hotspots/agriculture_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
