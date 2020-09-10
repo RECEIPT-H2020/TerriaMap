@@ -25,7 +25,6 @@ header h4 {
   padding: 0 10px;
 }
 
-
 .banner {
   background-image: url(../images/soybean.jpg);
   background-size: cover;
@@ -40,7 +39,7 @@ header h4 {
 }
 
 .chart {
-  width:90%;
+  width: 90%;
   max-width: 500px;
 }
 /*Mini-Preview*/
@@ -48,7 +47,7 @@ a {
   display: inline-block;
   position: relative;
   white-space: nowrap;
-  color:#054589;
+  color: #054589;
 }
 
 .break {
@@ -56,6 +55,8 @@ a {
 }
 
 .mini-preview-wrapper {
+  width: 250px;
+  height: 200px;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   position: absolute;
@@ -63,37 +64,44 @@ a {
   z-index: -1;
   opacity: 0;
   margin-top: -4px;
-  border: solid 1px #000;
-  box-shadow: 4px 4px 6px rgba(0, 0, 0, .3);
- 
+  border-radius: 5px;
+  box-shadow: -4px 4px 6px 4px rgb(194 189 189 / 48%);
 }
-.mini-preview-wrapper .heading {
+.mini-preview-wrapper h5 {
   background-color: #fff;
   margin: 0;
-  padding: 0 5px;
-  word-break: break-all;
+  padding: 5px;
+  word-break: break-word;
   white-space: normal;
-  height: 30px;
+  line-height: 1.2;
 }
-.right{
+.mini-preview-wrapper .screenshot {
+  width: 100%;
+  height: 100%;
+}
+.screenshot img {
+  width: 100%;
+  height: 100%;
+}
+.right {
   right: 0;
 }
 .left {
   left: 0;
 }
 .hasover a:hover .mini-preview-wrapper {
-    z-index: 2;
-    opacity: 1;
-    margin-top: 6px;
-    
-  }
+  z-index: 2;
+  opacity: 1;
+  margin-top: 6px;
+}
 
-.mini-preview-loading, .mini-preview-cover {
+.mini-preview-loading,
+.mini-preview-cover {
   position: absolute;
   top: 0;
   bottom: 0;
   right: 0;
-  left: 0;  
+  left: 0;
 }
 
 .mini-preview-loading {
@@ -107,7 +115,7 @@ a {
 }
 
 .mini-preview-loading::before {
-  content: 'Loading...';
+  content: "Loading...";
   display: table-cell;
   text-align: center;
   vertical-align: middle;
@@ -122,4 +130,3 @@ a {
   -webkit-transform-origin: 0 0;
   transform-origin: 0 0;
 }
-

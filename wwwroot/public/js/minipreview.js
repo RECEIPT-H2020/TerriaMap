@@ -108,12 +108,11 @@ $(function () {
             }
         },
         setPosition: function (event) {
-
             $wrapper = this.$el.find('.mini-preview-wrapper');
             console.log('called', $wrapper);
-            if (window.innerWidth - event.pageX <= 256) {
+            if (window.innerWidth - event.pageX <= 250) {
                 $wrapper.addClass('right');
-            } else if (event.pageX <= 256) {
+            } else if (event.pageX <= 250) {
                 $wrapper.addClass('left');
             }
         },
