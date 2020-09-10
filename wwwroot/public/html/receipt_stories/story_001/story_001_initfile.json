@@ -8,7 +8,7 @@
         "catalog": [
           {
             "name": "FAO EU Soybean Statistics",
-            "url": "http://localhost:3001/public/data/story_001/page_001/eu_and_soy.csv",
+            "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_001/eu_and_soy.csv",
             "type": "csv",
             "isShown": false,
             "isEnabled": true,
@@ -127,6 +127,124 @@
                 "content": ""
               }
             ]
+          },
+          {
+            "name": "Argentina Soy cultivation 1990",
+            "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_003/argentina_soy_cultivation_1990.csv",
+            "type": "csv",
+            "isShown": false,
+            "isEnabled": true,
+            "zoomOnEnable": false,
+            "cacheDuration": "5m",
+            "featureInfoTemplate": {
+              "name": "",
+              "template": "<h3></h3>"
+            },
+            "polling": {
+              "seconds": 300,
+              "replace": true
+            },
+            "rectangle": [
+              "134.0",
+              "-47.0",
+              "155.0",
+              "-13.0"
+            ],
+            "tableStyle": {
+              "dataVariable": "",
+              "timeColumn": null,
+              "replaceWithZeroValues": [],
+              "replaceWithNullValues": [
+                "-"
+              ],
+              "nullColor": "rgba(255,255,255,0.1)",
+              "nullLabel": "No value",
+              "colorBins": 10,
+              "colorMap": "white-blue",
+              "columns": {
+                "ADM2_PCODE": {
+                  "type": "HIDDEN"
+                },
+                "seeded": {
+                  "colorMap": "white-green",
+                  "colorBins": [0, 100000, 200000, 300000, 400000, 500000, 600000, 700000]
+                },
+                "harvested": {
+                  "colorMap": "white-green",
+                  "colorBins": [0, 100000, 200000, 300000, 400000, 500000, 600000, 700000]
+                }
+                ,"production": {
+                  "colorMap": "white-green",
+                  "colorBins": [0, 200000, 400000, 600000, 800000, 1000000, 1200000, 1400000, 1600000, 1800000]
+                },
+                "yield": {
+                  "colorMap": "white-green",
+                  "colorBins": [0, 1000, 2000, 3000, 4000, 5000, 6000]
+                }
+              }
+            }
+          },
+            {
+              "name": "Argentina Soy cultivation 2017",
+              "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_003/argentina_soy_cultivation_2017.csv",
+              "type": "csv",
+              "isShown": false,
+              "isEnabled": true,
+              "zoomOnEnable": false,
+              "cacheDuration": "5m",
+              "featureInfoTemplate": {
+                "name": "",
+                "template": "<h3></h3>"
+              },
+              "polling": {
+                "seconds": 300,
+                "replace": true
+              },
+              "rectangle": [
+                "134.0",
+                "-47.0",
+                "155.0",
+                "-13.0"
+              ],
+              "tableStyle": {
+                "dataVariable": "",
+                "timeColumn": null,
+                "replaceWithZeroValues": [],
+                "replaceWithNullValues": [
+                  "-"
+                ],
+                "nullColor": "rgba(255,255,255,0.1)",
+                "nullLabel": "No value",
+                "colorBins": 10,
+                "colorMap": "white-blue",
+                "columns": {
+                  "ADM2_PCODE": {
+                    "type": "HIDDEN"
+                  },
+                  "seeded": {
+                    "colorMap": "white-green",
+                    "colorBins": [0, 100000, 200000, 300000, 400000, 500000, 600000, 700000]
+                  },
+                  "harvested": {
+                    "colorMap": "white-green",
+                    "colorBins": [0, 100000, 200000, 300000, 400000, 500000, 600000, 700000]
+                  }
+                  ,"production": {
+                    "colorMap": "white-green",
+                    "colorBins": [0, 200000, 400000, 600000, 800000, 1000000, 1200000, 1400000, 1600000, 1800000]
+                  },
+                  "yield": {
+                    "colorMap": "white-green",
+                    "colorBins": [0, 1000, 2000, 3000, 4000, 5000, 6000]
+                  }
+                }
+              },
+            "info": [
+              {
+                "name": "",
+                "content": ""
+              }
+            ]
           }
         ]
       },
@@ -181,7 +299,7 @@
         "stories": [
           {
             "title": "Soybean consumption in the EU",
-            "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/receipt_stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>" ,
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>" ,
             "id": "dc586694-9e42-4221-bba0-be3ffcdde8ca",
             "shareData": {
               "initSources": [
@@ -196,6 +314,12 @@
                     },
                     "Root Group/FAO EU Soybean Statistics": {
                       "isShown": true
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
+                      "isShown": false
                     }
                   }
                 },
@@ -241,7 +365,7 @@
           },
           {
             "title": "The EU’s reliance on South America for soybean imports",
-            "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/receipt_stories/story_001/page_001_002/page_001_002.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>" ,
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_002/page_001_002.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>" ,
             "id": "d4d42f50-3626-4400-a65f-12cb1699b5f8",
             "shareData": {
               "initSources": [
@@ -255,6 +379,12 @@
                       "isShown": true
                     },
                     "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
                       "isShown": false
                     }
                   }
@@ -300,8 +430,8 @@
             }
           },
           {
-            "title": "Rising temperatures",
-            "text": "<div>Temperatures in Ghana have risen and are projected to keep rising as climate change continues.</div><div><br></div><div><img src=\"https://nlesc.sharepoint.com/sites/Receipt622/Shared%20Documents/General/ghana_story/temp_change.png\"><br></div><div><br></div>",
+            "title": "Drivers of Soy yield degradation",
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_003/page_001_003.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
             "id": "1339f11e-3dfd-4113-94ce-ed58b2bf821b",
             "shareData": {
               "initSources": [
@@ -315,6 +445,12 @@
                       "isShown": true
                     },
                     "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": true
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
                       "isShown": false
                     }
                   }
@@ -360,8 +496,8 @@
             }
           },
           {
-            "title": "Land suitability",
-            "text": "<span style=\"font-size: 14.4px;\">Due to effects caused by climate change, the proportion of land that is suitable for cocoa production will decline significantly in the coming 30 years.</span><div><span style=\"font-size: 14.4px;\"><br></span></div><div><span style=\"font-size: 14.4px;\">These maps show the land suitability as it is currently compared to the projected situation in 2050.</span></div>",
+            "title": "What has caused the drought?",
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_004/page_001_004.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
             "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd4",
             "shareData": {
               "initSources": [
@@ -375,6 +511,12 @@
                       "isShown": true
                     },
                     "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
                       "isShown": false
                     }
                   }
@@ -420,8 +562,8 @@
             }
           },
           {
-            "title": "Migration patterns",
-            "text": "<div>With land suitability in Ghana decreasing, many farmers will lose their income.</div><div><span style=\"font-size: 0.9rem;\"><br></span></div><div><span style=\"font-size: 0.9rem;\">Consequently, migration from Ghana and neighbouring countries is expected to increase during this period. This figure shows the main migration patterns in the northern part of Africa.</span></div><div><br></div><img src=\"https://nlesc.sharepoint.com/sites/Receipt622/Shared%20Documents/General/ghana_story/MIA_work.jpg\">",
+            "title": "The impact of drought in Brazil and Argentina on food security",
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_005/page_001_005.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
             "id": "3181a3ab-abe6-4ee5-8322-eea489db11a6",
             "shareData": {
               "initSources": [
@@ -435,6 +577,210 @@
                       "isShown": true
                     },
                     "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
+                      "isShown": false
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.747085704820195,
+                    "south": 3.925090951640218,
+                    "east": 21.948458347810256,
+                    "north": 39.21726891121903,
+                    "position": {
+                      "x": 9180875.544915354,
+                      "y": 1062374.9893074997,
+                      "z": 3737436.708850657
+                    },
+                    "direction": {
+                      "x": -0.9208497662953993,
+                      "y": -0.10655713127096096,
+                      "z": -0.37507504007733156
+                    },
+                    "up": {
+                      "x": -0.37258881344820005,
+                      "y": -0.04311451939051137,
+                      "z": 0.9269944521468225
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          },
+          {
+            "title": "Why suspend soybean exports?",
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_006/page_001_006.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+            "id": "7a3486c8-dbfb-4f3c-8607-47da8c644be7",
+            "shareData": {
+              "initSources": [
+                {
+                  "catalog": [                    
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "isShown": true
+                    },
+                    "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
+                      "isShown": false
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.747085704820195,
+                    "south": 3.925090951640218,
+                    "east": 21.948458347810256,
+                    "north": 39.21726891121903,
+                    "position": {
+                      "x": 9180875.544915354,
+                      "y": 1062374.9893074997,
+                      "z": 3737436.708850657
+                    },
+                    "direction": {
+                      "x": -0.9208497662953993,
+                      "y": -0.10655713127096096,
+                      "z": -0.37507504007733156
+                    },
+                    "up": {
+                      "x": -0.37258881344820005,
+                      "y": -0.04311451939051137,
+                      "z": 0.9269944521468225
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          },
+          {
+            "title": "Impacts of South American drought on the EU",
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_007/page_001_007.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+            "id": "447bd0c8-10b8-4bd7-95f1-4176fb6d2851",
+            "shareData": {
+              "initSources": [
+                {
+                  "catalog": [                    
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "isShown": true
+                    },
+                    "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
+                      "isShown": false
+                    }
+                  }
+                },
+                {
+                  "initialCamera": {
+                    "west": -8.747085704820195,
+                    "south": 3.925090951640218,
+                    "east": 21.948458347810256,
+                    "north": 39.21726891121903,
+                    "position": {
+                      "x": 9180875.544915354,
+                      "y": 1062374.9893074997,
+                      "z": 3737436.708850657
+                    },
+                    "direction": {
+                      "x": -0.9208497662953993,
+                      "y": -0.10655713127096096,
+                      "z": -0.37507504007733156
+                    },
+                    "up": {
+                      "x": -0.37258881344820005,
+                      "y": -0.04311451939051137,
+                      "z": 0.9269944521468225
+                    }
+                  },
+                  "homeCamera": {
+                    "west": 109,
+                    "south": -45,
+                    "east": 158,
+                    "north": -8
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.4999
+                }
+              ]
+            }
+          },          
+          { 
+            "title": "The effect of the disruption of EU food manufacturing on the global economy",
+            "text": "<div class=\"iframe-container\"><iframe src=\"https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_008/page_001_008.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+            "id": "62ae2fb3-a75a-4329-8fad-9eb5ceba832d",
+            "shareData": {
+              "initSources": [
+                {
+                  "catalog": [                    
+                  ]
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "isShown": true
+                    },
+                    "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
                       "isShown": false
                     }
                   }
