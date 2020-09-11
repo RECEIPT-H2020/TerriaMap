@@ -1,0 +1,110 @@
+{
+    "version": "0.0.05",
+    "initSources": [
+        {
+            "initFragment": "receipt"
+        },
+        {
+            "sharedCatalogMembers": {
+                "Root Group/Land suitability": {
+                    "isOpen": true,
+                    "type": "group",
+                    "parents": []
+                },
+                "Root Group/User-Added Data": {
+                    "isOpen": true,
+                    "type": "group",
+                    "parents": []
+                },
+                "Root Group/User-Added Data/": {
+                    "isOpen": true,
+                    "type": "wms-getCapabilities",
+                    "parents": [
+                        "Root Group/User-Added Data"
+                    ]
+                },
+                "Root Group/EU Lines!- Mapbox Style": {
+                    "nowViewingIndex": 0,
+                    "isEnabled": true,
+                    "isShown": true,
+                    "isLegendVisible": true,
+                    "useOwnClock": false,
+                    "opacity": 1,
+                    "keepOnTop": false,
+                    "splitDirection": 0,
+                    "showOnChart": false,
+                    "type": "mapbox-style",
+                    "parents": []
+                }
+            }
+        },
+        {
+            "initialCamera": {
+                "west": -28.14367811499203,
+                "south": 6.497506687233124,
+                "east": 42.55996112556878,
+                "north": 49.28516062483808,
+                "position": {
+                    "x": 9622325.914953757,
+                    "y": 1216971.5993512052,
+                    "z": 5794703.405466493
+                },
+                "direction": {
+                    "x": -0.851635316008111,
+                    "y": -0.10770950825680363,
+                    "z": -0.5129482920907744
+                },
+                "up": {
+                    "x": -0.5088944011338234,
+                    "y": -0.06436178099998262,
+                    "z": 0.8584195067920799
+                }
+            },
+            "homeCamera": {
+                "west": 109,
+                "south": -45,
+                "east": 158,
+                "north": -8
+            },
+            "baseMapName": "Positron (Light)",
+            "viewerMode": "3d",
+            "currentTime": {
+                "dayNumber": 2459005,
+                "secondsOfDay": 77933
+            },
+            "showSplitter": false,
+            "splitPosition": 0.5
+        },
+        {
+            "stories": [
+                {
+                    "title": "Microstory 3",
+                    "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/receipt_stories/story_001/microstories/microstory_003/microstory_003.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+                    "id": "micro-id-1",
+                    "micro-story-img": "",
+                    "micro-story-title": "",
+                    "micro-story-desc": "",
+                    "shareData": {
+                        "version": "0.0.05",
+                        "initSources": [
+                            {
+                                "catalog": [
+                                  {
+                                    "type": "mapbox-style",
+                                    "name": "Pirate - Mapbox Style",
+                                    "username": "tempgeocent",
+                                    "styleId": "cj2qe6qid003a2rmrquvqgbcx",
+                                    "accessToken": "pk.eyJ1IjoidGVtcGdlb2NlbnQiLCJhIjoiY2l1YTNmenEyMDAwdDJ6cWZxbG55Yjg4OSJ9.QRTz4Pi3096MtXKc_QgpWQ",
+                                    "isShown": true,
+                                    "isEnabled": true,
+                                    "opacity": 1
+                                  }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
