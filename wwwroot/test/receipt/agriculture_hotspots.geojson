@@ -11,25 +11,25 @@
         "rc-sector": "agriculture",
         "rc-title": "Soy production in Austria",
         "rc-description": "Soy bean cultivation has a long tradition in Austria. In 1875, Professor Friedrich HABERLANDT first introduced soy beans in Austria. SAATBAU LINZ has been investing in GMO-free soy bean breeding since 2006.",
-        "story-id": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/story_001_initfile.json",
+        "story-id": {"story": 1},
         "rc-microstories": [
           {
             "micro-story-img": "https://picsum.photos/id/237/200/300",
             "micro-story-title": "Microstory 1",
             "micro-story-desc": "Description 1",
-            "story-id": "/public/html/receipt_stories/story_001/microstory_001_initfile.json"
+            "story-id": {"story": 1, "microstory": 1}
           },
           {
             "micro-story-img": "https://picsum.photos/id/238/200/300",
             "micro-story-title": "Microstory 2",
             "micro-story-desc": "Description 2",
-            "story-id": "/public/html/receipt_stories/story_001/microstory_002_initfile.json"
+            "story-id": {"story": 1, "microstory": 2}
           },
           {
             "micro-story-img": "https://picsum.photos/id/239/200/300",
             "micro-story-title": "Microstory 3",
             "micro-story-desc": "Description 3",
-            "story-id": "/public/html/receipt_stories/story_001/microstory_003_initfile.json"
+            "story-id": {"story": 1, "microstory": 3}
           }
         ]
       },
