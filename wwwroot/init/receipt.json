@@ -1,4 +1,8 @@
 {
+  "corsDomains" : [
+    "climateimpactstories.eu",
+    "s3.eu-central-1.amazonaws.com"
+],
   "homeCamera": {
     "west": -28.14367811499203,
     "south": 6.497506687233124,
@@ -35,6 +39,38 @@
           "type": "geojson",
           "name": "Agriculture",
           "url": "http://localhost:3001/public/json/hotspots/agriculture_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Cooperation and Development",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/cooperation_and_development_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Manufacturing",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/manufacturing_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Coastal Infrastructure",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/coastal_infrastructure_hotspots.geojson",
+          "isShown": true,
+          "isEnabled": true,
+          "zoomOnEnable": false
+        },
+        {
+          "type": "geojson",
+          "name": "Finance",
+          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/finance_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false

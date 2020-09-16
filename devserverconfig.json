@@ -11,7 +11,6 @@
         "geoserver.aurin.org.au",
         "mapsengine.google.com",
         "s3-ap-southeast-2.amazonaws.com",
-        "eu-central-1.amazonaws.com",
         "adelaidecitycouncil.com",
         "www.dptiapps.com.au",
         "geoserver-123.aodn.org.au",
@@ -22,7 +21,10 @@
         "gov",
         "gov.uk",
         "gov.nz",
-        "sample.aero3dpro.com.au"
+        "sample.aero3dpro.com.au",
+        "eu-central-1.amazonaws.com",
+        "localhost",        
+        "climateimpactstories.eu"
     ],
 
     "shareUrlPrefixes": {
