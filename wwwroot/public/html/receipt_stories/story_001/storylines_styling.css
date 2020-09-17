@@ -8,23 +8,19 @@ sup {
   cursor: pointer;
   color: #551a8b;
 }
-header {
-  position: sticky;
-  top: -5px;
-  z-index: 11;
-  background: #fff;
-}
+
 header h4 {
   font-size: 1.2rem;
   color: #404040;
+  margin: 0;
+  padding: 0 10px 10px;
 }
 .wrapper {
   font-family: "Montserrat";
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
-  padding: 0 10px;
+  max-height: 90vh;
   overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 0 10px;
 }
 
 .banner {
