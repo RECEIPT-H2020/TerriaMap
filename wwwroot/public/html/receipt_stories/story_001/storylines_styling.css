@@ -2,34 +2,36 @@
 body {
   overflow: hidden;
 }
+
 li {
   font-size: 0.7rem;
   margin: 0 0 10px 0;
 }
+
 a {
   font-size: 0.7rem;
   overflow-wrap: break-word;
   text-decoration: none;
 }
+
 sup {
   font-size: small;
   font-weight: 500;
   cursor: pointer;
   color: #551a8b;
 }
-header {
-  position: sticky;
-  top: -5px;
-  z-index: 11;
-  background: #fff;
-}
+
 header h4 {
   font-size: 1.2rem;
   color: #404040;
+  margin: 0;
+  padding: 0 10px 10px;
 }
+
 .wrapper {
   font-family: "Montserrat";
   max-height: 90vh;
+  overflow-x: hidden;
   overflow-y: scroll;
   padding: 0 10px;
 }
@@ -46,6 +48,7 @@ header h4 {
   font-size: calc(0.7em + 0.2vw);
   line-height: calc(1.5em + 0.5vw);
 }
+
 .overlay {
   display: flex;
   align-items: center;
@@ -59,10 +62,12 @@ header h4 {
   visibility: hidden;
   opacity: 0;
 }
+
 .showPopup {
   visibility: visible;
   opacity: 1;
 }
+
 .popup {
   margin: 70px auto;
   padding: 20px;
@@ -72,6 +77,7 @@ header h4 {
   position: relative;
   transition: all 5s ease-in-out;
 }
+
 .popup .close {
   position: absolute;
   top: -5px;
@@ -82,14 +88,17 @@ header h4 {
   text-decoration: none;
   color: #333;
 }
+
 .popup .close:hover {
   color: #0a478d;
 }
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
   font-size: small;
 }
+
 .chart {
   width:90%;
   max-width: 500px;
