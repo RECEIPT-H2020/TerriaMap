@@ -2,6 +2,7 @@
 body {
   overflow: hidden;
 }
+
 li {
   font-size: 0.7rem;
   margin: 0 0 10px 0;
@@ -27,7 +28,7 @@ header h4 {
 .wrapper {
   font-family: "Montserrat";
   max-height: 90vh;
-  overflow-y: scroll;
+  overflow-y: auto;
   padding: 0 10px;
   
 }
