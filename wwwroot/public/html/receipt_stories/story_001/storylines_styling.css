@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 /* body {
   overflow: hidden;
-<<<<<<< HEAD
 }
 
 li {
@@ -13,9 +12,7 @@ a {
   overflow-wrap: break-word;
   text-decoration: none;
 }
-=======
 } */
->>>>>>> feature/minipreview
 sup {
   font-size: small;
   font-weight: 500;
@@ -31,18 +28,13 @@ header h4 {
 }
 .wrapper {
   font-family: "Montserrat";
-<<<<<<< HEAD
   max-height: 90vh;
   overflow-y: auto;
-  padding: 0 10px;
-  
-=======
   width: 100%;
   height: 100vh;
   box-sizing: border-box;
   padding: 0 10px;
   overflow-x: hidden;
->>>>>>> feature/minipreview
 }
 
 .banner {
