@@ -1,13 +1,22 @@
-showPopup = (url,content) =>{
-    const popup = document.getElementById('popup1');
-    const url_element = document.getElementById('url');
-    url_element.href = url;
-    !content &&( url_element.innerHTML = url);
-    popup.classList.add('showPopup')
-    
-}
+getData = () => {
+    return fetch(`./soy-content-vega-spec.json`)
+        .then(function (response) {
+            return response.json()
+        })
+        .then(function (json) {
+            json.encoding.color.legend.orient = 'bottom';
+            return json
+        });
+};
 
-closePopup = () => {
-    const popup = document.getElementById('popup1')
-    popup.classList.remove('showPopup')
+resetChart = async () => {
+    const res = await getData();
+    const vegaEmbed = window.vegaEmbed;
+    vegaEmbed("#vis", "soy-content-vega-spec.json")
+        .catch(console.error);
+    window.addEventListener('resize', () => {
+        if (window.innerWidth <= 420) {
+            vegaEmbed("#vis", res)
+        }
+    });
 }
