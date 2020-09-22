@@ -5,17 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Why suspend soybean exports?</title>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js" crossorigin="anonymous"></script>
-  <script src="../../../../js/preview.js"></script>
-  <script src="../../../../js/utilities.js"></script>
   <link href="../storylines_styling.css" type="text/css" rel="stylesheet" />
+  <script src="../../../../js/utilities.js"></script>
 </head>
 
 <body>
-  <header>
-    <h4>Why suspend soybean exports?</h4>
-  </header>
   <div class="wrapper">
+    <header>
+      <h4>Why suspend soybean exports?</h4>
+    </header>
     <section class="content">
       <div class="banner">
       </div>
@@ -26,8 +24,9 @@
           In South America, soy is a key feed ingredient for its own booming meat industry.
           Brazil’s domestic market consumed 23% of its soybean production, predominantly to sustain its feed and
           livestock industries, which are among the largest in the world
-          <sup class="preview hasover">
-            <a href="https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/">
+          <sup>
+            <a href="#"
+              onclick=showPopup("https://chainreactionresearch.com/report/feed-and-livestock-in-brazil-china-eu-consume-most-cerrado-soy/")>
               [1]
             </a>
           </sup>.
@@ -49,8 +48,9 @@
         </p>
         <p>
           Similarly, prolonged drought has led to receding river levels on all major rivers in Argentina
-          <sup class="preview hasover">
-            <a href="https://www.feednavigator.com/Article/2020/05/05/Pressure-on-Argentina-s-soy-crushing-sector">
+          <sup>
+            <a href="#"
+              onclick=showPopup("https://www.feednavigator.com/Article/2020/05/05/Pressure-on-Argentina-s-soy-crushing-sector")>
               [2]
             </a>
           </sup>.
@@ -59,6 +59,14 @@
         </p>
       </div>
     </section>
+    <div id="popup1" class="overlay">
+      <div class="popup">
+        <a class="close" href="#" onclick=closePopup()>&times;</a>
+        <div class="content">
+          <a href="#" id='url'></a>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 

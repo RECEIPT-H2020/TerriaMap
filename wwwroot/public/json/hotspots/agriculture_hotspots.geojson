@@ -11,7 +11,27 @@
         "rc-sector": "agriculture",
         "rc-title": "Drought affecting the production of soy in South America",
         "rc-description": "The severity of this year’s drought in Brazil and Argentina is set to cause severe disruption to the EU’s food supply as prices of meat and dairy products soar. The cause of the chaos? A humble bean. Yet this is no ordinary bean. Soy has been dubbed the ‘green gold’ since the early part of the Century. Today, it is the most important protein crop globally and a lynchpin in many of the world’s largest economies.",
-        "story-id": "/public/html/receipt_stories/story_001/story_001_initfile.json"
+        "story-id": "/public/html/receipt_stories/story_001/story_001_initfile.json",
+        "rc-microstories": [
+          {
+            "micro-story-img": "https://picsum.photos/id/237/200/300",
+            "micro-story-title": "Microstory 1",
+            "micro-story-desc": "Description 1",
+            "story-id": "/public/html/receipt_stories/story_001/microstory_001_initfile.json"
+          },
+          {
+            "micro-story-img": "https://picsum.photos/id/238/200/300",
+            "micro-story-title": "Microstory 2",
+            "micro-story-desc": "Description 2",
+            "story-id": "/public/html/receipt_stories/story_001/microstory_002_initfile.json"
+          },
+          {
+            "micro-story-img": "https://picsum.photos/id/239/200/300",
+            "micro-story-title": "Microstory 3",
+            "micro-story-desc": "Description 3",
+            "story-id": "/public/html/receipt_stories/story_001/microstory_003_initfile.json"
+          }
+        ]
       },
       "geometry": {
         "type": "Point",
