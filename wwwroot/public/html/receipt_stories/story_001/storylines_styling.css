@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
-body {
+/* body {
   overflow: hidden;
 }
 
@@ -13,7 +13,7 @@ a {
   overflow-wrap: break-word;
   text-decoration: none;
 }
-
+} */
 sup {
   font-size: small;
   font-weight: 500;
@@ -31,9 +31,12 @@ header h4 {
 .wrapper {
   font-family: "Montserrat";
   max-height: 90vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
   padding: 0 10px;
+  overflow-x: hidden;
 }
 
 .banner {
@@ -49,54 +52,97 @@ header h4 {
   line-height: calc(1.5em + 0.5vw);
 }
 
-.overlay {
-  display: flex;
-  align-items: center;
-  position: fixed;
+.chart {
+  width: 90%;
+  max-width: 500px;
+}
+/*Mini-Preview*/
+a {
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  color: #054589;
+}
+
+.break {
+  text-align: center;
+}
+
+.mini-preview-wrapper {
+  width: 250px;
+  height: 200px;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  opacity: 0;
+  margin-top: -4px;
+  border-radius: 5px;
+  box-shadow: -4px 4px 6px 4px rgb(194 189 189 / 48%);
+}
+.mini-preview-wrapper h5 {
+  background-color: #fff;
+  margin: 0;
+  padding: 5px;
+  word-break: break-word;
+  white-space: normal;
+  line-height: 1.2;
+}
+.mini-preview-wrapper .screenshot {
+  width: 100%;
+  height: 100%;
+}
+.screenshot img {
+  width: 100%;
+  height: 100%;
+}
+.right {
+  right: 0;
+}
+.left {
+  left: 0;
+}
+.hasover a:hover .mini-preview-wrapper {
+  z-index: 2;
+  opacity: 1;
+  margin-top: 6px;
+}
+
+.mini-preview-loading,
+.mini-preview-cover {
+  position: absolute;
   top: 0;
   bottom: 0;
-  left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
+  left: 0;
 }
 
-.showPopup {
-  visibility: visible;
-  opacity: 1;
+.mini-preview-loading {
+  display: table;
+  height: 100%;
+  width: 100%;
+  font-size: 1.25rem;
+  text-align: center;
+  color: #f5ead4;
+  background-color: #59513f;
 }
 
-.popup {
-  margin: 70px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 50%;
-  position: relative;
-  transition: all 5s ease-in-out;
+.mini-preview-loading::before {
+  content: "Loading...";
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.popup .close {
-  position: absolute;
-  top: -5px;
-  right: 5px;
-  transition: all 200ms;
-  font-size: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
+.mini-preview-cover {
+  background-color: rgba(0, 0, 0, 0); /* IE fix */
 }
 
-.popup .close:hover {
-  color: #0a478d;
-}
-
-.popup .content {
-  max-height: 30%;
-  overflow: auto;
-  font-size: small;
+.mini-preview-frame {
+  border: none;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .chart {
