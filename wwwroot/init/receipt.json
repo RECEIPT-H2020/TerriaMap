@@ -1,6 +1,7 @@
 {
   "corsDomains" : [
     "climateimpactstories.eu",
+    "tiles.climateimpactstories.eu",
     "s3.eu-central-1.amazonaws.com"
 ],
   "homeCamera": {

@@ -270,7 +270,7 @@
                 "type": "HIDDEN"
               },
               "seeded": {
-                "colorMap": "white-red",
+                "colorMap": "white-green",
                 "colorBins": [
                   0,
                   100000,
@@ -283,7 +283,7 @@
                 ]
               },
               "harvested": {
-                "colorMap": "white-red",
+                "colorMap": "white-green",
                 "colorBins": [
                   0,
                   100000,
@@ -296,7 +296,7 @@
                 ]
               },
               "production": {
-                "colorMap": "white-red",
+                "colorMap": "white-green",
                 "colorBins": [
                   0,
                   200000,
@@ -311,7 +311,7 @@
                 ]
               },
               "yield": {
-                "colorMap": "white-red",
+                "colorMap": "white-green",
                 "colorBins": [
                   0,
                   1000,
@@ -343,7 +343,7 @@
             "-13.0"
           ],
           "tableStyle": {
-            "dataVariable": "",
+            "dataVariable": "yield",
             "timeColumn": null,
             "replaceWithZeroValues": [],
             "replaceWithNullValues": [
@@ -637,10 +637,14 @@
                     "isShown": false
                   },
                   "Root Group/Argentina Soy cultivation 1990": {
+                    "nowViewingIndex": 0,
+                    "splitDirection": -1,
                     "isShown": true
                   },
                   "Root Group/Argentina Soy cultivation 2017": {
-                    "isShown": false
+                    "nowViewingIndex": 1,
+                    "splitDirection": 1,
+                    "isShown": true
                   }
                 }
               },
@@ -678,8 +682,8 @@
                   "dayNumber": 2459005,
                   "secondsOfDay": 77933
                 },
-                "showSplitter": false,
-                "splitPosition": 0.4999
+                "showSplitter": true,
+                "splitPosition": 0.9
               }
             ]
           }

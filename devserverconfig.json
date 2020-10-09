@@ -24,7 +24,8 @@
         "sample.aero3dpro.com.au",
         "eu-central-1.amazonaws.com",
         "localhost",        
-        "climateimpactstories.eu"
+        "climateimpactstories.eu",        
+        "tiles.climateimpactstories.eu"
     ],
 
     "shareUrlPrefixes": {
