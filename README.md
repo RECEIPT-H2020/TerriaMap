@@ -38,6 +38,10 @@ The deploy pipeline runs when pushing to release branch (master on 'receipt').
 ```
 npx gulp release
 ```
+#### Update submodules (Git pull recursively)
+```
+git submodule update --init --recursive
+```
 
 
 ## Cesium access token
