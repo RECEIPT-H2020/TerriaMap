@@ -4,14 +4,14 @@
       {
       "type": "Feature",
       "properties": {
-        "marker-color": "#999",
-        "marker-size": "large",
+        "marker-color": "#111",
+        "marker-size": "small",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "coastalInfrastructure",
         "rc-title": "Sudan",
         "rc-description": "Description of the tooltip",
-        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+        "story-id": "/public/html/receipt_stories/story_001/story_001_initfile.json"
       },
       "geometry": {
         "type": "Point",
@@ -24,14 +24,14 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#999",
-        "marker-size": "large",
+        "marker-color": "#111",
+        "marker-size": "small",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "coastalInfrastructure",
         "rc-title": "Brazil",
         "rc-description": "Description of the tooltip",
-        "story-id": "g-d65e94e22accf343ecfe2b9d169c13f3"
+        "story-id": "/public/html/receipt_stories/stories/story_001/story_001_initfile.json"
       },
       "geometry": {
         "type": "Point",
