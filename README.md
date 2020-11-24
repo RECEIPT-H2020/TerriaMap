@@ -3,8 +3,14 @@
 
 ## Set up
 Requirements:
-Yarn and Node v10. (V10 its important).
+Yarn and Node
 
+
+### Creating HTML stories. 
+Stories will display full html content inside an iframe for each story.
+[See README file](/wwwroot/public/html/README.md). 
+
+/Users/ctw/Sites/github/escience/receipt/TerriaMap/wwwroot/public/html/README.md
 
 ### Notes
 - **Note 1**: Master Banches for our forks are named 'receipt'.
@@ -28,7 +34,13 @@ from TerriaMaps folder:
 yarn serve
 open browser on localhost:3001
 ```
-## Stop PM2 instances runningn locally
+Loading stories from URL params:
+```
+http://localhost:3001/?story=1&microstory=1
+```
+When running locally the stories will be retrieved from localhost:3001/public/html/stories folder
+
+## Stop PM2 instances running locally
 ```
 yarn stop
 ```
