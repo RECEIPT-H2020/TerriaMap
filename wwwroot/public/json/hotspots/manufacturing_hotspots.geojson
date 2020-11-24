@@ -11,7 +11,7 @@
         "rc-sector": "manufacturing",
         "rc-title": "India",
         "rc-description": "Description of the tooltip",
-        "story-id": "/public/html/receipt_stories/stories/story_001/story_001_initfile.json"
+        "rc-story": "/public/html/stories/stories/story_001/story_001_initfile.json"
       },
       "geometry": {
         "type": "Point",

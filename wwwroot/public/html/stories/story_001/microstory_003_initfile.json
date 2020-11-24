@@ -79,7 +79,7 @@
             "stories": [
                 {
                     "title": "Microstory 3",
-                    "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/receipt_stories/story_001/microstories/microstory_003/microstory_003.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+                    "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/microstories/microstory_003/microstory_003.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
                     "id": "micro-id-1",
                     "micro-story-img": "",
                     "micro-story-title": "",

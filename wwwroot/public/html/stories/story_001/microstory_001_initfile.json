@@ -78,8 +78,8 @@
         {
             "stories": [
                 {
-                    "title": "Microstory 2",
-                    "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/receipt_stories/story_001/microstories/microstory_002/microstory_002.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+                    "title": "Microstory 1",
+                    "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/microstories/microstory_001/microstory_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
                     "id": "micro-id-1",
                     "micro-story-img": "",
                     "micro-story-title": "",
@@ -91,9 +91,9 @@
                                 "catalog": [
                                   {
                                     "type": "mapbox-style",
-                                    "name": "Blueprint - Mapbox Style",
+                                    "name": "Amazing Spiderman - Mapbox Style",
                                     "username": "ctwhome",
-                                    "styleId": "ckaz6z6r71bd01in6lzgonl8r",
+                                    "styleId": "ckazbdbn80n1o1imygmda2cfv",
                                     "accessToken": "pk.eyJ1IjoiY3R3aG9tZSIsImEiOiJjazhpZ3ljOXUwNTR0M2VxbHhkNWl2NDEzIn0.swIehGzH7mS_TiohUmGuAg",
                                     "isShown": true,
                                     "isEnabled": true,
