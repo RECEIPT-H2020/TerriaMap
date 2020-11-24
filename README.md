@@ -8,7 +8,7 @@ Yarn and Node
 
 ### Creating HTML stories. 
 Stories will display full html content inside an iframe for each story.
-[See README file](/wwwroot/public/html/README.md). 
+[See README file](/wwwroot/public/html). 
 
 /Users/ctw/Sites/github/escience/receipt/TerriaMap/wwwroot/public/html/README.md
 
