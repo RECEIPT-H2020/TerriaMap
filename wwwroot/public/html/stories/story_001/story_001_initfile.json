@@ -481,7 +481,10 @@
       "stories": [
         {
           "title": "Drought affecting the production of soy in South America",
-          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+          "text": {
+            "0": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+            "1": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001_2.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>"
+          },
           "id": "dc586694-9e42-4221-bba0-be3ffcdde8ca",
           "shareData": {
             "initSources": [
