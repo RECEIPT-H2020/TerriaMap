@@ -12,7 +12,6 @@ html {
   /* Change default typefaces here */
   font-family: var(--font-family-base);
   font-size: 100%;
-  -webkit-font-smoothing: antialiased;
   color: var(--text-color)
 }
 /* Copy & Lists */

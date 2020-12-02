@@ -1,0 +1,14 @@
+@import url("https://unpkg.com/tippy.js@6/themes/light.css");
+.tooltip {
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+}
+.tooltip .title {
+  font-weight: bold;
+}
+
+.tooltip img {
+  width: 100%;
+}
