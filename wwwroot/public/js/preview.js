@@ -14,7 +14,7 @@ const setData = (data, links) => {
     data.map((item, index) => {
         if (item['text'] == links[index].textContent.replace(/[\[\]']+/g, '')) {
             item['element'] = links[index]
-            console.log('setData');
+            // console.log('setData');
             createElement(item)
         }
     })
@@ -42,7 +42,6 @@ const addEventsListener = (el) => {
 }
 const setPosition = (event) => {
     const wrapper = event.target.querySelector('.mini-preview-wrapper');
-    console.log(event.pageX, window.innerWidth)
     if (window.innerWidth - event.pageX <= 256) {
         wrapper.classList.add('right');
     } else if (event.pageX <= 256) {
