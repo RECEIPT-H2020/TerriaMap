@@ -10,8 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.14.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.10.0"></script>
     <script src="../../../../js/utilities.js"></script>
-    <script src="../../../../js/preview.js"></script>
-    <link href="../storylines_styling.css" type="text/css" rel="stylesheet" />
+    <link href="../../css/storylines_styling.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -29,20 +28,28 @@
                     93% (57 kg) of which is embedded as animal feed in the animal products that most consumers eat
                     daily.
                     <sup class="preview hasover">
-                        <a target="_blank" href="https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish">
+                        <a target="_blank" href="https://wwf.panda.org/wwf_offices/brazil/?247051/WWF-Average-EU-citizen-consumes-61-kg-of-soy-per-year--most-from-soy-embedded-in-meat-dairy-eggs-and-fish"
+                           data-tooltip-title="Current Soybean Harvest Yields Disappoint, But Swift Recovery Forecast for 2019/20"
+                           data-tooltip-image="../../images/screenshots/story_001/page_001/page_001_001_1.png"
+                           data-tooltip-description="">
                             [1]
                         </a>
                     </sup>.
                     This is because we use vast quantities to feed the livestock that supply the meat and dairy products
-                    that many of us eat daily. The highest amount of ‘embedded’ soy is in chicken breast (109 grams per
-                    100 grams), closely followed by eggs (35 grams of soy per egg of 55 grams), salmon steaks (59 grams
-                    soy per 100 grams), pork chops (51 grams soy per 100 grams of meat), hamburgers (46 grams soy per
-                    100 grams) and cheese (25 grams of soy per 100 grams).
+                  that many of us eat daily. The highest amount of ‘embedded’ soy is in chicken breast (109 grams per
+                  100 grams), closely followed by eggs (35 grams of soy per egg of 55 grams), salmon steaks (59 grams
+                  soy per 100 grams), pork chops (51 grams soy per 100 grams of meat), hamburgers (46 grams soy per
+                  100 grams) and cheese (25 grams of soy per 100 grams).
                 </p>
             </div>
         </section>
         <section id="charts">
-            <div id="vis" class="chart"></div>
+          <div id="vis" class="chart"></div>
         </section>
+
+        <!-- Tooltips -->
+        <script src="https://unpkg.com/@popperjs/core@2"></script>
+        <script src="https://unpkg.com/tippy.js@6"></script>
+        <script src="../../js/tooltips.js"></script>
 </body>
 </html>
