@@ -81,6 +81,7 @@
                     "title": "Microstory 1",
                     "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/microstories/microstory_001/microstory_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
                     "id": "micro-id-1",
+                    "sector": "agriculture",
                     "micro-story-img": "",
                     "micro-story-title": "",
                     "micro-story-desc": "",
