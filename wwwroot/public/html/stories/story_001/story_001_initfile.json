@@ -481,72 +481,136 @@
       "stories": [
         {
           "title": "Drought affecting the production of soy in South America",
-          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+          "text": {
+            "0": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+            "1": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001_2.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>"
+          },
           "id": "dc586694-9e42-4221-bba0-be3ffcdde8ca",
           "shareData": {
-            "initSources": [
-              {
-                "catalog": [
-
-                ]
-              },
-              {
-                "sharedCatalogMembers": {
-                  "Root Group/EU Lines!- Mapbox Style": {
-                    "isShown": true
-                  },
-                  "Root Group/EU Food Manufacturing Statistics": {
-                    "isShown": false
-                  },
-                  "Root Group/FAO EU Soybean Statistics": {
-                    "isShown": true
-                  },
-                  "Root Group/Argentina Soy cultivation 1990": {
-                    "isShown": false
-                  },
-                  "Root Group/Argentina Soy cultivation 2017": {
-                    "isShown": false
+            "initSources": {
+              "0": [
+                {
+                  "catalog": []
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "isShown": true
+                    },
+                    "Root Group/EU Food Manufacturing Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": true
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
+                      "isShown": false
+                    }
                   }
+                },
+                {
+                  "initialCamera": {
+                    "west": -42.88872847070834,
+                    "south": 24.376320387330228,
+                    "east": 63.7876880673992,
+                    "north": 59.035303750984006,
+                    "position": {
+                      "x": 7672347.981100282,
+                      "y": 1414989.359781635,
+                      "z": 8798974.979847113
+                    },
+                    "direction": {
+                      "x": -0.6530244354249589,
+                      "y": -0.12043544298041713,
+                      "z": -0.747699398697113
+                    },
+                    "up": {
+                      "x": -0.7352989614666408,
+                      "y": -0.13560910027761408,
+                      "z": 0.6640373552654818
+                    }
+                  },
+                  "homeCamera": {
+                    "west": -42.88872847070834,
+                    "south": 24.376320387330228,
+                    "east": 63.7876880673992,
+                    "north": 59.035303750984006
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.5
                 }
-              },
-              {
-                "initialCamera": {
-                  "west": -42.88872847070834,
-                  "south": 24.376320387330228,
-                  "east": 63.7876880673992,
-                  "north": 59.035303750984006,
-                  "position": {
-                    "x": 7672347.981100282,
-                    "y": 1414989.359781635,
-                    "z": 8798974.979847113
-                  },
-                  "direction": {
-                    "x": -0.6530244354249589,
-                    "y": -0.12043544298041713,
-                    "z": -0.747699398697113
-                  },
-                  "up": {
-                    "x": -0.7352989614666408,
-                    "y": -0.13560910027761408,
-                    "z": 0.6640373552654818
+              ],
+              "1": [
+                {
+                  "catalog": []
+                },
+                {
+                  "sharedCatalogMembers": {
+                    "Root Group/EU Lines!- Mapbox Style": {
+                      "isShown": true
+                    },
+                    "Root Group/EU Food Manufacturing Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/FAO EU Soybean Statistics": {
+                      "isShown": false
+                    },
+                    "Root Group/Argentina Soy cultivation 1990": {
+                      "isShown": true
+                    },
+                    "Root Group/Argentina Soy cultivation 2017": {
+                      "isShown": false
+                    }
                   }
                 },
-                "homeCamera": {
-                  "west": -42.88872847070834,
-                  "south": 24.376320387330228,
-                  "east": 63.7876880673992,
-                  "north": 59.035303750984006
-                },
-                "baseMapName": "Positron (Light)",
-                "viewerMode": "3d",
-                "currentTime": {
-                  "dayNumber": 2459005,
-                  "secondsOfDay": 77933
-                },
-                "showSplitter": false,
-                "splitPosition": 0.5
-              }
-            ]
+                {
+                  "initialCamera": {
+                    "west": -42.88872847070834,
+                    "south": 24.376320387330228,
+                    "east": 63.7876880673992,
+                    "north": 59.035303750984006,
+                    "position": {
+                      "x": 7672347.981100282,
+                      "y": 1414989.359781635,
+                      "z": 8798974.979847113
+                    },
+                    "direction": {
+                      "x": -0.6530244354249589,
+                      "y": -0.12043544298041713,
+                      "z": -0.747699398697113
+                    },
+                    "up": {
+                      "x": -0.7352989614666408,
+                      "y": -0.13560910027761408,
+                      "z": 0.6640373552654818
+                    }
+                  },
+                  "homeCamera": {
+                    "west": -42.88872847070834,
+                    "south": 24.376320387330228,
+                    "east": 63.7876880673992,
+                    "north": 59.035303750984006
+                  },
+                  "baseMapName": "Positron (Light)",
+                  "viewerMode": "3d",
+                  "currentTime": {
+                    "dayNumber": 2459005,
+                    "secondsOfDay": 77933
+                  },
+                  "showSplitter": false,
+                  "splitPosition": 0.5
+                }
+              ]
+            }
           }
         },
         {
