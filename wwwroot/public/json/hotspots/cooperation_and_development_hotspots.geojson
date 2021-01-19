@@ -9,10 +9,11 @@
         "marker-size": "small",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
-        "rc-sector": "manufacturing",
+        "rc-sector": "cooperation",
         "rc-title": "India",
         "rc-description": "Description of the tooltip",
         "rc-story": "/public/html/stories/stories/story_001/story_001_initfile.json",
+        "rc-story-id": 5
       },
       "geometry": {
         "type": "Point",

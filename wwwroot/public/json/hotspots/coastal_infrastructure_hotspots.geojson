@@ -11,7 +11,8 @@
         "rc-sector": "coastalInfrastructure",
         "rc-title": "Sudan",
         "rc-description": "Description of the tooltip",
-        "rc-story": "/public/html/stories/story_001/story_001_initfile.json"
+        "rc-story": "/public/html/stories/story_001/story_001_initfile.json",
+        "rc-story-id": 4
       },
       "geometry": {
         "type": "Point",
