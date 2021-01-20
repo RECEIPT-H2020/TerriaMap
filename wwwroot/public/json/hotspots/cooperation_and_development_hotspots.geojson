@@ -5,13 +5,13 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#111",
-        "marker-size": "small",
+        "marker-color": "#0c70a7",
+        "marker-size": "large",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
         "rc-sector": "cooperation",
         "rc-title": "India",
-        "rc-description": "Description of the tooltip",
+        "rc-description": "Hotspot description.",
         "rc-story": "/public/html/stories/stories/story_001/story_001_initfile.json",
         "rc-story-id": 5
       },
