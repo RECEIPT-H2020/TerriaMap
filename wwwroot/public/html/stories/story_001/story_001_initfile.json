@@ -901,6 +901,7 @@
           "pageTitle": "Why suspend soybean exports?",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_3.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd453",
+          "sector": "agriculture",
           "shareData": {
             "initSources": [
               {
@@ -969,6 +970,7 @@
           "pageTitle": "Impacts of South American drought on the EU",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_005/page_001_005.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "3181a3ab-abe6-4ee5-8322-eea489db11a6",
+          "sector": "agriculture",
           "shareData": {
             "initSources": [
               {
