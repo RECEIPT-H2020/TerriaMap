@@ -480,7 +480,8 @@
     {
       "stories": [
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Soybean consumption in the EU",
           "text": {
             "0": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
             "1": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_001/page_001_001_2.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>"
@@ -615,9 +616,11 @@
           }
         },
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Connection: The EU’s reliance on South America for soybean imports",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_002/page_001_002.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "d4d42f50-3626-4400-a65f-12cb1699b5f8",
+          "sector": "agriculture",
           "shareData": {
             "initSources": [
               {
@@ -680,9 +683,11 @@
           }
         },
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Drivers of degradation",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_003/page_001_003.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "1339f11e-3dfd-4113-94ce-ed58b2bf821b",
+          "sector": "agriculture",
           "shareData": {
             "initSources": [
               {
@@ -754,9 +759,11 @@
           }
         },
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "What has caused the drought?",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_1.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd4078",
+          "sector": "agriculture",
           "shareData": {
             "initSources": [
               {
@@ -821,9 +828,11 @@
           }
         },
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "The impact of drought in Brazil and Argentina on food security",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_2.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
-          "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd412",
+          "id": "3181a3ab-abe6-4ee5-8322-8c30d9a2bcd412",
+          "sector": "agriculture",
           "shareData": {
             "initSources": [
               {
@@ -888,7 +897,8 @@
           }
         },
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Why suspend soybean exports?",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_3.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd453",
           "shareData": {
@@ -955,7 +965,8 @@
           }
         },
         {
-          "title": "Drought affecting the production of soy in South America",
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Impacts of South American drought on the EU",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_005/page_001_005.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "3181a3ab-abe6-4ee5-8322-eea489db11a6",
           "shareData": {
