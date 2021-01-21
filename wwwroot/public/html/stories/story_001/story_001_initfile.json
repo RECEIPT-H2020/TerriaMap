@@ -761,8 +761,8 @@
         {
           "storyTitle": "Drought affecting the production of soy in South America",
           "pageTitle": "What has caused the drought?",
-          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
-          "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd4",
+          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_1.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+          "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd4078",
           "sector": "agriculture",
           "shareData": {
             "initSources": [
@@ -830,6 +830,144 @@
         {
           "storyTitle": "Drought affecting the production of soy in South America",
           "pageTitle": "The impact of drought in Brazil and Argentina on food security",
+          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_2.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+          "id": "3181a3ab-abe6-4ee5-8322-8c30d9a2bcd412",
+          "sector": "agriculture",
+          "shareData": {
+            "initSources": [
+              {
+                "catalog": []
+              },
+              {
+                "sharedCatalogMembers": {
+                  "Root Group/EU Lines!- Mapbox Style": {
+                    "isShown": true
+                  },
+                  "Root Group/FAO EU Soybean Statistics": {
+                    "isShown": false
+                  },
+                  "Root Group/EU Food Manufacturing Statistics": {
+                    "isShown": false
+                  },
+                  "Root Group/Argentina Soy cultivation 1990": {
+                    "isShown": false
+                  },
+                  "Root Group/Argentina Soy cultivation 2017": {
+                    "isShown": false
+                  }
+                }
+              },
+              {
+                "initialCamera": {
+                  "west": -97.92097105190891,
+                  "south": -54.14045653652536,
+                  "east": -24.092316844602124,
+                  "north": -6.409702757373815,
+                  "position": {
+                    "x": 4794463.334065796,
+                    "y": -8651806.733341375,
+                    "z": -6562093.077844692
+                  },
+                  "direction": {
+                    "x": -0.4024324262127808,
+                    "y": 0.7262059029806096,
+                    "z": 0.557380596010134
+                  },
+                  "up": {
+                    "x": 0.2701669428303224,
+                    "y": -0.4875273857029268,
+                    "z": 0.8302571114970272
+                  }
+                },
+                "homeCamera": {
+                  "west": -42.88872847070834,
+                  "south": 24.376320387330228,
+                  "east": 63.7876880673992,
+                  "north": 59.035303750984006
+                },
+                "baseMapName": "Positron (Light)",
+                "viewerMode": "3d",
+                "currentTime": {
+                  "dayNumber": 2459005,
+                  "secondsOfDay": 77933
+                },
+                "showSplitter": false
+              }
+            ]
+          }
+        },
+        {
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Why suspend soybean exports?",
+          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_004/page_001_004_3.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
+          "id": "e75fa4c7-2890-40f9-ac09-8c30d9a2bcd453",
+          "sector": "agriculture",
+          "shareData": {
+            "initSources": [
+              {
+                "catalog": []
+              },
+              {
+                "sharedCatalogMembers": {
+                  "Root Group/EU Lines!- Mapbox Style": {
+                    "isShown": true
+                  },
+                  "Root Group/FAO EU Soybean Statistics": {
+                    "isShown": false
+                  },
+                  "Root Group/EU Food Manufacturing Statistics": {
+                    "isShown": false
+                  },
+                  "Root Group/Argentina Soy cultivation 1990": {
+                    "isShown": false
+                  },
+                  "Root Group/Argentina Soy cultivation 2017": {
+                    "isShown": false
+                  }
+                }
+              },
+              {
+                "initialCamera": {
+                  "west": -97.92097105190891,
+                  "south": -54.14045653652536,
+                  "east": -24.092316844602124,
+                  "north": -6.409702757373815,
+                  "position": {
+                    "x": 4794463.334065796,
+                    "y": -8651806.733341375,
+                    "z": -6562093.077844692
+                  },
+                  "direction": {
+                    "x": -0.4024324262127808,
+                    "y": 0.7262059029806096,
+                    "z": 0.557380596010134
+                  },
+                  "up": {
+                    "x": 0.2701669428303224,
+                    "y": -0.4875273857029268,
+                    "z": 0.8302571114970272
+                  }
+                },
+                "homeCamera": {
+                  "west": -42.88872847070834,
+                  "south": 24.376320387330228,
+                  "east": 63.7876880673992,
+                  "north": 59.035303750984006
+                },
+                "baseMapName": "Positron (Light)",
+                "viewerMode": "3d",
+                "currentTime": {
+                  "dayNumber": 2459005,
+                  "secondsOfDay": 77933
+                },
+                "showSplitter": false
+              }
+            ]
+          }
+        },
+        {
+          "storyTitle": "Drought affecting the production of soy in South America",
+          "pageTitle": "Impacts of South American drought on the EU",
           "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_005/page_001_005.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
           "id": "3181a3ab-abe6-4ee5-8322-eea489db11a6",
           "sector": "agriculture",
@@ -847,213 +985,6 @@
                     "isShown": false
                   },
                   "Root Group/EU Food Manufacturing Statistics": {
-                    "isShown": false
-                  },
-                  "Root Group/Argentina Soy cultivation 1990": {
-                    "isShown": false
-                  },
-                  "Root Group/Argentina Soy cultivation 2017": {
-                    "isShown": false
-                  }
-                }
-              },
-              {
-                "initialCamera": {
-                  "west": -97.92097105190891,
-                  "south": -54.14045653652536,
-                  "east": -24.092316844602124,
-                  "north": -6.409702757373815,
-                  "position": {
-                    "x": 4794463.334065796,
-                    "y": -8651806.733341375,
-                    "z": -6562093.077844692
-                  },
-                  "direction": {
-                    "x": -0.4024324262127808,
-                    "y": 0.7262059029806096,
-                    "z": 0.557380596010134
-                  },
-                  "up": {
-                    "x": 0.2701669428303224,
-                    "y": -0.4875273857029268,
-                    "z": 0.8302571114970272
-                  }
-                },
-                "homeCamera": {
-                  "west": -42.88872847070834,
-                  "south": 24.376320387330228,
-                  "east": 63.7876880673992,
-                  "north": 59.035303750984006
-                },
-                "baseMapName": "Positron (Light)",
-                "viewerMode": "3d",
-                "currentTime": {
-                  "dayNumber": 2459005,
-                  "secondsOfDay": 77933
-                },
-                "showSplitter": false,
-                "splitPosition": 0.4999
-              }
-            ]
-          }
-        },
-        {
-          "storyTitle": "Drought affecting the production of soy in South America",
-          "pageTitle": "Why suspend soybean exports?",
-          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_006/page_001_006.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
-          "id": "7a3486c8-dbfb-4f3c-8607-47da8c644be7",
-          "sector": "agriculture",
-          "shareData": {
-            "initSources": [
-              {
-                "catalog": []
-              },
-              {
-                "sharedCatalogMembers": {
-                  "Root Group/EU Lines!- Mapbox Style": {
-                    "isShown": true
-                  },
-                  "Root Group/FAO EU Soybean Statistics": {
-                    "isShown": false
-                  },
-                  "Root Group/EU Food Manufacturing Statistics": {
-                    "isShown": false
-                  },
-                  "Root Group/Argentina Soy cultivation 1990": {
-                    "isShown": false
-                  },
-                  "Root Group/Argentina Soy cultivation 2017": {
-                    "isShown": false
-                  }
-                }
-              },
-              {
-                "initialCamera": {
-                  "west": -97.92097105190891,
-                  "south": -54.14045653652536,
-                  "east": -24.092316844602124,
-                  "north": -6.409702757373815,
-                  "position": {
-                    "x": 4794463.334065796,
-                    "y": -8651806.733341375,
-                    "z": -6562093.077844692
-                  },
-                  "direction": {
-                    "x": -0.4024324262127808,
-                    "y": 0.7262059029806096,
-                    "z": 0.557380596010134
-                  },
-                  "up": {
-                    "x": 0.2701669428303224,
-                    "y": -0.4875273857029268,
-                    "z": 0.8302571114970272
-                  }
-                },
-                "homeCamera": {
-                  "west": -42.88872847070834,
-                  "south": 24.376320387330228,
-                  "east": 63.7876880673992,
-                  "north": 59.035303750984006
-                },
-                "baseMapName": "Positron (Light)",
-                "viewerMode": "3d",
-                "currentTime": {
-                  "dayNumber": 2459005,
-                  "secondsOfDay": 77933
-                },
-                "showSplitter": false,
-                "splitPosition": 0.4999
-              }
-            ]
-          }
-        },
-        {
-          "storyTitle": "Drought affecting the production of soy in South America",
-          "pageTitle": "Impacts of South American drought on the EU",
-          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_007/page_001_007.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
-          "id": "447bd0c8-10b8-4bd7-95f1-4176fb6d2851",
-          "sector": "agriculture",
-          "shareData": {
-            "initSources": [
-              {
-                "catalog": []
-              },
-              {
-                "sharedCatalogMembers": {
-                  "Root Group/EU Lines!- Mapbox Style": {
-                    "isShown": true
-                  },
-                  "Root Group/FAO EU Soybean Statistics": {
-                    "isShown": false
-                  },
-                  "Root Group/EU Food Manufacturing Statistics": {
-                    "isShown": true
-                  },
-                  "Root Group/Argentina Soy cultivation 1990": {
-                    "isShown": false
-                  },
-                  "Root Group/Argentina Soy cultivation 2017": {
-                    "isShown": false
-                  }
-                }
-              },
-              {
-                "initialCamera": {
-                  "west": -42.88872847070834,
-                  "south": 24.376320387330228,
-                  "east": 63.7876880673992,
-                  "north": 59.035303750984006,
-                  "position": {
-                    "x": 7672347.981100282,
-                    "y": 1414989.359781635,
-                    "z": 8798974.979847113
-                  },
-                  "direction": {
-                    "x": -0.6530244354249589,
-                    "y": -0.12043544298041713,
-                    "z": -0.747699398697113
-                  },
-                  "up": {
-                    "x": -0.7352989614666408,
-                    "y": -0.13560910027761408,
-                    "z": 0.6640373552654818
-                  }
-                },
-                "homeCamera": {
-                  "west": -42.88872847070834,
-                  "south": 24.376320387330228,
-                  "east": 63.7876880673992,
-                  "north": 59.035303750984006
-                },
-                "baseMapName": "Positron (Light)",
-                "viewerMode": "3d",
-                "currentTime": {
-                  "dayNumber": 2459005,
-                  "secondsOfDay": 77933
-                },
-                "showSplitter": false,
-                "splitPosition": 0.4999
-              }
-            ]
-          }
-        },
-        {
-          "storyTitle": "Drought affecting the production of soy in South America",
-          "pageTitle": "The disruption of EU food manufacturing on the global economy",
-          "text": "<div class=\"iframe-container\"><iframe src=\"/public/html/stories/story_001/page_001_008/page_001_008.html\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\"></iframe></div>",
-          "id": "62ae2fb3-a75a-4329-8fad-9eb5ceba832d",
-          "sector": "agriculture",
-          "shareData": {
-            "initSources": [
-              {
-                "catalog": []
-              },
-              {
-                "sharedCatalogMembers": {
-                  "Root Group/EU Lines!- Mapbox Style": {
-                    "isShown": true
-                  },
-                  "Root Group/FAO EU Soybean Statistics": {
                     "isShown": false
                   },
                   "Root Group/Argentina Soy cultivation 1990": {
