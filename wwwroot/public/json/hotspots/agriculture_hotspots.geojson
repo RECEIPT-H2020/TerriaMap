@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#F00",
+        "marker-color": "#EE7755",
         "marker-size": "large",
         "marker-symbol": "circle",
         "rc-type": "hotspot",
