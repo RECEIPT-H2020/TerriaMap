@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Impacts of South American drought on the EU Connection</title>
   <link href="../../css/storylines_styling.css" type="text/css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.13.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.14.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.10.0"></script>
 </head>
 
 <body>
@@ -27,9 +30,25 @@
           Prices of farmed salmon, chicken, pork, eggs and cheese have already increased across the bloc.
           Consumers are starting to stockpile food, which is putting further pressure on constrained supplies.
         </p>
-        <p>
-          Unemployment in the agricultural and food sectors is rising.
-          Food manufacturing is the largest job sector in the EU, employing XXX million people.
+
+        <div id="vis" style="width:300px"></div>
+        <script type="text/javascript">
+          const spec = {
+            "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+            "description": "Soy producer prices",
+            "data": {"url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_005/SoyProducerPrices.csv"},
+            "mark": "line",
+            "encoding": {
+              "x": {"field": "year", "type": "temporal"},
+              "y": {"field": "weightedprodprice", "type": "quantitative"}
+            }
+          }
+          vegaEmbed('#vis', spec).catch(console.error);
+        </script>
+
+        <p>  
+          Unemployment in the agricultural and food sectors is rising. 
+          Food manufacturing is the largest job sector in the EU, employing XXX million people. 
           Many of these jobs are in rural and peripheral regions and are most concentrated in Mazowiecki region in Poland and Bretagne in France, where they account for 14.8% and 13.8% of total employment, respectively.
         </p>
       </div>
