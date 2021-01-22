@@ -39,7 +39,7 @@
         {
           "type": "geojson",
           "name": "agriculture",
-          "url": "http://localhost:3001/public/json/hotspots/agriculture_hotspots.geojson",
+          "url": "/public/json/hotspots/agriculture_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -47,7 +47,7 @@
         {
           "type": "geojson",
           "name": "cooperation",
-          "url": "http://localhost:3001/public/json/hotspots/cooperation_and_development_hotspots.geojson",
+          "url": "/public/json/hotspots/cooperation_and_development_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -55,7 +55,7 @@
         {
           "type": "geojson",
           "name": "manufacturing",
-          "url": "http://localhost:3001/public/json/hotspots/manufacturing_hotspots.geojson",
+          "url": "/public/json/hotspots/manufacturing_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -63,7 +63,7 @@
         {
           "type": "geojson",
           "name": "coastalInfrastructure",
-          "url": "http://localhost:3001/public/json/hotspots/coastal_infrastructure_hotspots.geojson",
+          "url": "/public/json/hotspots/coastal_infrastructure_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
@@ -71,7 +71,7 @@
         {
           "type": "geojson",
           "name": "finance",
-          "url": "http://localhost:3001/public/json/hotspots/finance_hotspots.geojson",
+          "url": "/public/json/hotspots/finance_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
