@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>What has caused the drought?</title>
-  <link href="../../css/storylines_styling.css" type="text/css" rel="stylesheet"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What has caused the drought?</title>
+    <link href="../../css/storylines_styling.css" type="text/css" rel="stylesheet"/>
 
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.13.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.14.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.10.0"></script>
 </head>
 
 <body>
@@ -17,10 +20,9 @@
             </div>
             <p>
                 As global temperatures continue to rise due to climate change,
-                South America has experienced more frequent and intense storms and drought due to El Niño ,
+                South America has experienced more frequent and intense storms and drought due to El Niño,
                 one of the most important climatic phenomena on Earth which influences global temperatures (usually
-                increased heat),
-                and precipitation.
+                increased heat), and precipitation.
                 An El Niño condition occurs when surface water in the equatorial Pacific becomes warmer than average and
                 east winds blow weaker than usual .
                 The warming creates an interaction between the surface layers of the tropical Pacific Ocean and the
@@ -28,6 +30,12 @@
                 As global temperatures rise due to climate change, the frequency and intensity of El Niño events have
                 increased.
             </p>
+            <div id="vis" style="width:300px"></div>
+            <script type="text/javascript">
+                const spec = "/public/data/story_001/page_004/stackedbar.vg.json";
+                vegaEmbed('#vis', spec).then(function (result) {
+                }).catch(console.error);
+            </script>
         </section>
     </div>
 </body>

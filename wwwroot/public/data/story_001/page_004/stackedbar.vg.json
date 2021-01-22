@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "data": {
+        "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/stories/story_001/page_001_004/SoyShareValueAdded.csv"
+    },
+    "transform": [
+        {
+            "calculate": "datum.share_soyinag * 100",
+            "as": "perc_soyinag"
+        }
+    ],
+    "title": "Share of value of soybean in total value of agricultural production",
+    "mark": "bar",
+    "width": {"step": 12},
+    "encoding": {
+        "row": {
+            "timeUnit": "year", "title": "Year", "field": "year", "type": "ordinal", "spacing": -1
+        },
+        "x": {
+            "field": "perc_soyinag",
+            "type": "quantitative",
+            "title": "% of agriculture",
+            "scale": {
+                "domain": [0, 30]
+            }
+        },
+        "y": {
+            "field": "country",
+            "type": "nominal",
+            "axis": {
+                "title": "",
+                "labels": false
+            }
+        },
+        "color": {
+            "field": "country",
+            "type": "nominal",
+            "title": "Country"
+        }
+    },
+    "config": {
+        "view": {"stroke": "transparent"},
+        "axis": {"domainWidth": 1}
+    }
+}
