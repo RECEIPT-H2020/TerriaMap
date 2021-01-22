@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impact on Soy production (1/3)</title>
+  <link href="../../css/storylines_styling.css" type="text/css" rel="stylesheet"/>
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.13.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.14.1"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.10.0"></script>
+</head>
+
+<body>
+<h4 class="title">Impact on Soy production (1/3)</h4>
+<section class="content">
+  <div class="banner">
+  </div>
+  <p>
+    The dramatic rise in demand for soybeans has led to significant socioeconomic benefits in Brazil and Argentina - their domestic livestock industries have
+    become among the largest in the world.
+    In September 2020, soybeans were the second most exported product from Brazil, after iron ore, with the value of exports standing at $1.64B.
+  </p>
+  <div id="vis" style="width:300px"></div>
+  <script type="text/javascript">
+    const spec = "/public/data/story_001/page_004/stackedbar.vg.json";
+    vegaEmbed('#vis', spec).then(function (result) {}).catch(console.error);
+  </script>
+</section>
+</body>
+
+</html>
