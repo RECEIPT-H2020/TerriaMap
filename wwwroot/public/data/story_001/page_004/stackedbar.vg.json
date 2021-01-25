@@ -11,25 +11,30 @@
     ],
     "title": "Share of value of soybean in total value of agricultural production",
     "mark": "bar",
-    "width": {"step": 12},
+    "width": {"step": 4},
     "encoding": {
-        "row": {
-            "timeUnit": "year", "title": "Year", "field": "year", "type": "ordinal", "spacing": -1
-        },
+        "facet": {
+          "field": "year",
+          "timeUnit": "year", 
+          "type": "ordinal",
+          "spacing": -1000,
+          "header": { "labelAngle": -90 }          
+        },  
         "x": {
+            "field": "country",
+            "type": "nominal",
+            "axis": {
+                "title": "",
+                "labels": false,
+                "ticks":false
+            }
+        },
+        "y": {
             "field": "perc_soyinag",
             "type": "quantitative",
             "title": "% of agriculture",
             "scale": {
                 "domain": [0, 30]
-            }
-        },
-        "y": {
-            "field": "country",
-            "type": "nominal",
-            "axis": {
-                "title": "",
-                "labels": false
             }
         },
         "color": {
