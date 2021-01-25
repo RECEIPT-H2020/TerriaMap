@@ -34,44 +34,44 @@
       "type": "group",
       "isShown": true,
       "isEnabled": true,
-      "zoomOnEnable": false,      
+      "zoomOnEnable": false,
       "items": [
         {
           "type": "geojson",
-          "name": "Agriculture",
-          "url": "http://localhost:3001/public/json/hotspots/agriculture_hotspots.geojson",
+          "name": "agriculture",
+          "url": "/public/json/hotspots/agriculture_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
-          "name": "Cooperation and Development",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/cooperation_and_development_hotspots.geojson",
+          "name": "cooperation",
+          "url": "/public/json/hotspots/cooperation_and_development_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
-          "name": "Manufacturing",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/manufacturing_hotspots.geojson",
+          "name": "manufacturing",
+          "url": "/public/json/hotspots/manufacturing_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
-          "name": "Coastal Infrastructure",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/coastal_infrastructure_hotspots.geojson",
+          "name": "coastalInfrastructure",
+          "url": "/public/json/hotspots/coastal_infrastructure_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
-          "name": "Finance",
-          "url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com/finance_hotspots.geojson",
+          "name": "finance",
+          "url": "/public/json/hotspots/finance_hotspots.geojson",
           "isShown": true,
           "isEnabled": true,
           "zoomOnEnable": false
