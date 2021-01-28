@@ -29,50 +29,56 @@
       "accessToken": "pk.eyJ1IjoibWFhcnRlbnZtIiwiYSI6ImNrMnl1NTJyMTAyNHozaGp3Yndhd2JibTIifQ.-23EtnnBkqN_BpXq2QWlqA",
       "parents": []
     },
+
     {
       "name": "Hotspot Overview",
       "type": "group",
-      "isShown": true,
+      "isShown": false,
       "isEnabled": true,
       "zoomOnEnable": false,
       "items": [
         {
           "type": "geojson",
+          "rcType": "hotspots",
           "name": "agriculture",
           "url": "/public/json/hotspots/agriculture_hotspots.geojson",
-          "isShown": true,
+          "isShown": false,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
+          "rcType": "hotspots",
           "name": "cooperation",
           "url": "/public/json/hotspots/cooperation_and_development_hotspots.geojson",
-          "isShown": true,
+          "isShown": false,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
+          "rcType": "hotspots",
           "name": "manufacturing",
           "url": "/public/json/hotspots/manufacturing_hotspots.geojson",
-          "isShown": true,
+          "isShown": false,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
+          "rcType": "hotspots",
           "name": "coastalInfrastructure",
           "url": "/public/json/hotspots/coastal_infrastructure_hotspots.geojson",
-          "isShown": true,
+          "isShown": false,
           "isEnabled": true,
           "zoomOnEnable": false
         },
         {
           "type": "geojson",
+          "rcType": "hotspots",
           "name": "finance",
           "url": "/public/json/hotspots/finance_hotspots.geojson",
-          "isShown": true,
+          "isShown": false,
           "isEnabled": true,
           "zoomOnEnable": false
         }
