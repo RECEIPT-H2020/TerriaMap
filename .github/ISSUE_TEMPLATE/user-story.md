@@ -1,13 +1,13 @@
 ## User story
-As a *user*
-I want to *action*
-So that *purpose*
 
-## Proposed work
+As **user**  
+I want to **action**  
+So that **purpose**
 
+### Proposed work
 
-## Acceptance Criteria
-- [ ] 
+### Acceptance Criteria
 
-## Designs
+*    [ ] 
 
+### Designs
