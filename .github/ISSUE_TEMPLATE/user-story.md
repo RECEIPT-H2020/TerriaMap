@@ -20,7 +20,7 @@ So that 
 
 ### Acceptance Criteria
 
-*   [ ] 
-*   [ ] Update documentation
+* [ ] 
+* [ ] Update documentation
 
 ### Designs
