@@ -16,11 +16,11 @@ So that 
 
 ### Proposed work
 
-\-
+- 
 
 ### Acceptance Criteria
 
-*    [ ] 
+*   [ ] 
 *   [ ] Update documentation
 
 ### Designs
