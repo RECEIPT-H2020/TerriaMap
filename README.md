@@ -15,7 +15,7 @@ Stories will display full html content inside an iframe for each story.
 ### Notes
 
 *   **Note 1**: Master Branches for our forks are named 'receipt'.
-*   **Note 2**, PM2 causes problems with old installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
+*   **Note 2**, PM2 causes problems with previous local installations. run `rm -rf ~/.pm2` to clean up or `npx pm2 update`.
 *   **Note 3**, when changing branches: If you encounter problems you may need to sync branches between TerriaMap and TerriaJs You should run `gulp sync-terriajs-dependencies`, then re-run `npm install`, then run gulp again.
 *   **Note 4**, If the map doesn't load, you may have to clear your browser cache, cookies and other site data. (Only clearing the cache is not enough!)
 *   **Note 5**, use prettier while formatting your code and set it up to prettify on 'file save'
@@ -76,3 +76,7 @@ You can create a new token at https://cesium.com/ion or use the temporary token:
 inside the parameters object:
 
 `cesiumIonAccessToken: <ACCESS_TOKEN>`
+
+
+## Creating releases:
+At to this point the releases are created manually from github. 
