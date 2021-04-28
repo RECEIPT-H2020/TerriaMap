@@ -80,3 +80,31 @@ inside the parameters object:
 
 ## Creating releases:
 At to this point the releases are created manually from github. 
+
+## Set up amplify
+
+Make sure the amplify cli is installed:
+```
+npm install -g @aws-amplify/cli
+```
+
+Get an access key (id + secret) from the person administrating the AWS account for the project. In the packages/terriajs folder, execute `amplify pull` and enter the following values when asked:
+```
+cd packages/terriajs
+amplify pull
+? Select the authentication method you want to use: AWS access keys
+? accessKeyId:  ********************
+? secretAccessKey:  ****************************************
+? region:  eu-central-1
+? Which app are you working on? <select the receipt project>
+Backend environment 'dev' found. Initializing...
+? Choose your default editor: Visual Studio Code
+? Choose the type of app that you're building javascript
+Please tell us about your project
+? What javascript framework are you using react
+? Source Directory Path:  lib
+? Distribution Directory Path: wwwroot/build
+? Build Command:  npx gulp
+? Start Command: yarn start
+? Do you plan on modifying this backend? Yes
+```
