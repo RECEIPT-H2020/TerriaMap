@@ -10,6 +10,9 @@ import React from "react";
 import RelatedMaps from "./RelatedMaps";
 import SplitPoint from "terriajs/lib/ReactViews/SplitPoint";
 import StandardUserInterface from "terriajs/lib/ReactViews/StandardUserInterface/StandardUserInterface.jsx";
+
+import { HashRouter as Router } from "react-router-dom";
+
 import version from "../../version";
 
 import "./global.scss";
@@ -31,15 +34,16 @@ function isBrowserSupportedAV() {
 
 export default function UserInterface(props) {
   return (
-    <StandardUserInterface {...props} version={version}>
-      {/* <Menu>
+    <Router>
+      <StandardUserInterface {...props} version={version}>
+        {/* <Menu>
         <RelatedMaps viewState={props.viewState} />
         <MenuItem caption="About" href="about.html" key="about-link" />
       </Menu>
       <Nav>
         <MeasureTool terria={props.viewState.terria} key="measure-tool" />
       </Nav> */}
-      {/* <ExperimentalMenu>
+        {/* <ExperimentalMenu>
         <If condition={isBrowserSupportedAV()}>
           <SplitPoint
             loadComponent={loadAugmentedVirtuality}
@@ -49,7 +53,8 @@ export default function UserInterface(props) {
           />
         </If>
       </ExperimentalMenu> */}
-    </StandardUserInterface>
+      </StandardUserInterface>
+    </Router>
   );
 }
 

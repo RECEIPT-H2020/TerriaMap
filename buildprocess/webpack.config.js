@@ -98,7 +98,8 @@ module.exports = function(devMode, hot) {
         ],
        resolve: {
             alias: {},
-            modules: ['node_modules']
+            modules: ['node_modules'],
+            extensions: ['.mjs', '.js', '.jsx']
         }
     };
     config.resolve.alias['terriajs-variables'] = require.resolve('../lib/Styles/variables.scss');
