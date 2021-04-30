@@ -64,6 +64,7 @@
         // "showInAppGuides": false,
         // True to display new feature popups.
         // "showFeaturePrompts": false,
+        "initFragmentPaths": ["init/"],
         "cesiumIonAccessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlZTAwNDI5Yy02N2MwLTQxYjEtYmVhNy0yODdkM2ZkMWQ1YmEiLCJpZCI6MjU1OTAsInNjb3BlcyI6WyJhc2wiLCJhc3IiLCJhc3ciLCJnYyIsInByIl0sImlhdCI6MTU4NjI3MzIxMH0.LerByi6jRkrePIgwwnvWQ4l5kK5RM7JsAwibqz7DnmE",
         // Receipt custom config
         "s3_url": "https://receipt-stories-bucket.s3.eu-central-1.amazonaws.com"
