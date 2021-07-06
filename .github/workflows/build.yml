@@ -38,9 +38,9 @@ jobs:
         id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          key: ${{ runner.os }}-${{ matrix.node-version }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
-            ${{ runner.os }}-yarn-
+            ${{ runner.os }}-${{ matrix.node-version }}-yarn-
 
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
@@ -61,7 +61,9 @@ jobs:
           AWS_REGION: eu-central-1
       
       - name: Checkout the exports file from the amplify environment
-        run: npx amplify env checkout dev
+        run: |
+          npx amplify env checkout dev
+        working-directory: packages/terriajs
 
       - name: move aws-exports.js to the correct location
         run: mv aws-exports.js lib/aws-exports.js
