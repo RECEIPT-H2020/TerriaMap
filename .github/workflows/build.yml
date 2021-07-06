@@ -57,8 +57,8 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: eu-central-1
       
-      - name: Pull amplify environment
-        run: amplify env pull
+      - name: Checkout the exports file from the amplify environment
+        run: npx amplify env checkout dev
 
       - name: move aws-exports.js to the correct location
         run: mv aws-exports.js lib/aws-exports.js
