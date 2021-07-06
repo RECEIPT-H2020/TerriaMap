@@ -60,8 +60,9 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: eu-central-1
 
-      - name: list amplify directory
+      - name: Chown amplify directory
         run: |
+          chown -R /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify
           ls -l /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/
 
       - name: Checkout the exports file from the amplify environment
