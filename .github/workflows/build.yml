@@ -44,7 +44,7 @@ jobs:
 
       - name: move aws-exports.js to the correct location
         run: mv aws-exports.js lib/aws-exports.js
-        workdir: packages/terriajs
+        working-directory: packages/terriajs
         
       - name: Build with gulp
         run: npx gulp release
