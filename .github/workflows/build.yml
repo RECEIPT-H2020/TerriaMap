@@ -37,6 +37,7 @@ jobs:
         with:
           amplify_command: configure
           amplify_env: prod
+          project_dir: packages/terriajs
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
