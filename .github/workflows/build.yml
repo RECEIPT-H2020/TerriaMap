@@ -62,7 +62,7 @@ jobs:
 
       - name: Chown amplify directory
         run: |
-          chown -R runner:docker /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify
+          sudo chown -R runner:docker /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify
           ls -l /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/
 
       - name: Checkout the exports file from the amplify environment
