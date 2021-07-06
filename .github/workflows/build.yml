@@ -31,6 +31,20 @@ jobs:
 
       - name: Install dependencies
         run: yarn install
+
+      - name: configure amplify
+        uses: ambientlight/amplify-cli-action@0.3.0
+        with:
+          amplify_command: configure
+          amplify_env: prod
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_REGION: eu-central-1
+
+      - name: move aws-exports.js to the correct location
+        run: mv aws-exports.js lib/aws-exports.js
+        workdir: packages/terriajs
         
       - name: Build with gulp
         run: npx gulp release
