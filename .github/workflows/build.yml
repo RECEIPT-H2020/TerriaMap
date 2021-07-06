@@ -50,7 +50,9 @@ jobs:
         run: npm install -g @aws-amplify/cli
 
       - name: list amplify directory
-        run: ls -l /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/
+        run: |
+          touch /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/local-env-info.json
+          ls -l /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/
 
       - name: configure amplify
         uses: ambientlight/amplify-cli-action@0.3.0
