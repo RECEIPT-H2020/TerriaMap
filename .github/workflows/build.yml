@@ -49,6 +49,9 @@ jobs:
       - name: Install amplify with npm
         run: npm install -g @aws-amplify/cli
 
+      - name: list amplify directory
+        run: ls -l /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/
+
       - name: configure amplify
         uses: ambientlight/amplify-cli-action@0.3.0
         with:
@@ -59,7 +62,7 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_REGION: eu-central-1
-      
+
       - name: Checkout the exports file from the amplify environment
         run: |
           npx amplify env checkout dev
@@ -68,8 +71,8 @@ jobs:
       - name: move aws-exports.js to the correct location
         run: mv aws-exports.js lib/aws-exports.js
         working-directory: packages/terriajs
-        
+
       - name: Build with gulp
         run: npx gulp release
-      
-        
+
+
