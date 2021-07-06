@@ -52,6 +52,7 @@ jobs:
       - name: list amplify directory
         run: |
           echo {} > /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/local-env-info.json
+          echo {} > /github/workspace/packages/terriajs/amplify/team-provider-info.json
           ls -l /home/runner/work/TerriaMap/TerriaMap/packages/terriajs/amplify/.config/
 
       - name: configure amplify
