@@ -16,8 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
-        node-version: [latest]
+        node-version: [14.x,latest]
 
     steps:
       - name: Checkout project
