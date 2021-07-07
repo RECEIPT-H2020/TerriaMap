@@ -76,7 +76,7 @@ jobs:
           cd amplify
           ls -al
           cd ..
-          amplify pull --yes
+          amplify env checkout dev --restore
           ls -al
 
       - name: move aws-exports.js to the correct location
