@@ -73,8 +73,10 @@ jobs:
         run: |
           cd packages/terriajs
           ls -al
+          pwd
           cd amplify
           ls -al
+          pwd
           cd ..
           amplify env checkout dev --restore
           ls -al
