@@ -72,7 +72,12 @@ jobs:
       - name: Checkout the exports file from the amplify environment
         run: |
           cd packages/terriajs
+          ls -al
+          cd amplify
+          ls -al
+          cd ..
           amplify pull --yes
+          ls -al
 
       - name: move aws-exports.js to the correct location
         run: mv aws-exports.js lib/aws-exports.js
