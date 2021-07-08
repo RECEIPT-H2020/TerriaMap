@@ -16,6 +16,8 @@ jobs:
 
     env:
       TERRIA_JS_DIR: ${{ github.workspace }}/packages/terriajs
+      AMPLIFY_ENV: dev
+      AMPLIFY_REGION: eu-central-1
 
     strategy:
       fail-fast: false
@@ -52,16 +54,26 @@ jobs:
       - name: Install amplify with npm
         run: npm install -g @aws-amplify/cli
 
-      - name: configure amplify
-        uses: ambientlight/amplify-cli-action@0.3.0
-        with:
-          amplify_command: configure
-          amplify_env: dev
-          project_dir: packages/terriajs
-        env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: eu-central-1
+      # - name: configure amplify
+      #   uses: ambientlight/amplify-cli-action@0.3.0
+      #   with:
+      #     amplify_command: configure
+      #     amplify_env: dev
+      #     project_dir: packages/terriajs
+      #   env:
+      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      #     AWS_REGION: eu-central-1
+
+      - name: Amplify pull
+        run: |
+          aws_config_file_path="$(pwd)/aws_config_file_path.json"
+          echo '{"accessKeyId":"'${{ secrets.AWS_ACCESS_KEY_ID }}'","secretAccessKey":"'${{ secrets.AWS_SECRET_ACCESS_KEY }}'","region":"'${{ env.AMPLIFY_REGION }}'"}' > $aws_config_file_path
+          echo '{"projectPath": "'"$(pwd)"'","defaultEditor":"code","envName":"'${{ env.AMPLIFY_ENV }}'"}' > ./amplify/.config/local-env-info.json
+          echo '{"'${{ env.AMPLIFY_ENV }}'":{"configLevel":"project","useProfile":false,"awsConfigFilePath":"'$aws_config_file_path'"}}' > ./amplify/.config/local-aws-info.json
+          amplify env pull --yes
+          amplify status
+        working-directory: ${{ env.TERRIA_JS_DIR }}
 
       - name: Chown amplify directory
         run: |
@@ -77,7 +89,7 @@ jobs:
           ls -al
           pwd
           cd ..
-          amplify env checkout dev --restore
+          amplify env checkout ${{ env.AMPLIFY_ENV }} --restore
           ls -al
         working-directory: ${{ env.TERRIA_JS_DIR }}
 
