@@ -91,11 +91,13 @@ jobs:
           cd ..
           amplify env checkout ${{ env.AMPLIFY_ENV }} --restore
           ls -al
+          cd amplify
+          ls -al
         working-directory: ${{ env.TERRIA_JS_DIR }}
 
-      - name: move aws-exports.js to the correct location
-        run: mv aws-exports.js lib/aws-exports.js
-        working-directory: ${{ env.TERRIA_JS_DIR }}
+      # - name: move aws-exports.js to the correct location
+      #   run: mv aws-exports.js lib/aws-exports.js
+      #   working-directory: ${{ env.TERRIA_JS_DIR }}
 
       - name: Build with gulp
         run: npx gulp release
