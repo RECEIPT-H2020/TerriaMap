@@ -22,7 +22,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        node-version: ['14.x','16.x']
+        node-version: ['10.x','14.x','16.x']
 
     steps:
       - name: Checkout project
@@ -54,17 +54,6 @@ jobs:
       - name: Install amplify with npm
         run: npm install -g @aws-amplify/cli
 
-      # - name: configure amplify
-      #   uses: ambientlight/amplify-cli-action@0.3.0
-      #   with:
-      #     amplify_command: configure
-      #     amplify_env: dev
-      #     project_dir: packages/terriajs
-      #   env:
-      #     AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      #     AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      #     AWS_REGION: eu-central-1
-
       - name: Amplify pull
         run: |
           aws_config_file_path="$(pwd)/aws_config_file_path.json"
@@ -75,31 +64,12 @@ jobs:
           amplify status
         working-directory: ${{ env.TERRIA_JS_DIR }}
 
-      - name: Chown amplify directory
-        run: |
-          sudo chown -R runner:docker amplify
-          ls -l amplify/.config/
-        working-directory: ${{ env.TERRIA_JS_DIR }}
-
       - name: Checkout the exports file from the amplify environment
         run: |
-          ls -al
-          pwd
-          cd amplify
-          ls -al
-          pwd
-          cd ..
           amplify env checkout ${{ env.AMPLIFY_ENV }} --restore
-          ls -al
-          cd amplify
-          ls -al
         working-directory: ${{ env.TERRIA_JS_DIR }}
 
-      # - name: move aws-exports.js to the correct location
-      #   run: mv aws-exports.js lib/aws-exports.js
-      #   working-directory: ${{ env.TERRIA_JS_DIR }}
-
       - name: Build with gulp
-        run: npx gulp release
+        run: npm run gulp release
 
 
