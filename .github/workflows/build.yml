@@ -15,8 +15,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      TERRIA_MAP_DIR: /home/runner/work/TerriaMap
-      TERRIA_JS_DIR: /home/runner/work/TerriaMap/TerriaMap/packages/terriajs
+      TERRIA_JS_DIR: ${{ github.workspace }}/packages/terriajs
 
     strategy:
       fail-fast: false
@@ -58,7 +57,7 @@ jobs:
         with:
           amplify_command: configure
           amplify_env: dev
-          project_dir: packages/terriajs/
+          project_dir: ${{ env.TERRIA_JS_DIR }}
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -66,12 +65,12 @@ jobs:
 
       - name: Chown amplify directory
         run: |
-          sudo chown -R runner:docker ${{ env.TERRIA_JS_DIR }}/amplify
-          ls -l ${{ env.TERRIA_JS_DIR }}/amplify/.config/
+          sudo chown -R runner:docker amplify
+          ls -l amplify/.config/
+        working-directory: ${{ env.TERRIA_JS_DIR }}
 
       - name: Checkout the exports file from the amplify environment
         run: |
-          cd packages/terriajs
           ls -al
           pwd
           cd amplify
@@ -80,10 +79,11 @@ jobs:
           cd ..
           amplify env checkout dev --restore
           ls -al
+        working-directory: ${{ env.TERRIA_JS_DIR }}
 
       - name: move aws-exports.js to the correct location
         run: mv aws-exports.js lib/aws-exports.js
-        working-directory: packages/terriajs
+        working-directory: ${{ env.TERRIA_JS_DIR }}
 
       - name: Build with gulp
         run: npx gulp release
