@@ -88,7 +88,7 @@ Make sure the amplify cli is installed:
 npm install -g @aws-amplify/cli
 ```
 
-Get an access key (id + secret) from the person administrating the AWS account for the project. In the packages/terriajs folder, execute `amplify pull` and enter the following values when asked:
+Get an access key (id + secret) from the AWS IAM dashboard (IAM > Access management > Users > Select user > Security credentials tab > Access keys > Create access key button).  In the packages/terriajs folder, execute `amplify pull` and enter the following values when asked:
 ```
 cd packages/terriajs
 amplify pull
